@@ -1,0 +1,402 @@
+[
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=750x429 at 0x72BDC1D86620></img>\nWhich of these states is farthest north?\nChoices: ['West Virginia', 'Louisiana', 'Arizona', 'Oklahoma']",
+        "response": "Answer: West Virginia\nSolution: To find the answer, look at the compass rose. Look at which way the north arrow is pointing. West Virginia is farthest north."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=302x232 at 0x72BDC1D86BF0></img>\nIdentify the question that Tom and Justin's experiment can best answer.\nChoices: ['Do ping pong balls stop rolling along the ground sooner after being launched from a 30° angle or a 45° angle?', 'Do ping pong balls travel farther when launched from a 30° angle compared to a 45° angle?']",
+        "response": "Answer: Do ping pong balls travel farther when launched from a 30° angle compared to a 45° angle?\nSolution: "
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=302x232 at 0x72BDC1D86C50></img>\nIdentify the question that Kathleen and Bryant's experiment can best answer.\nChoices: [\"Does Kathleen's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?\", \"Does Kathleen's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?\"]",
+        "response": "Answer: Does Kathleen's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?\nSolution: "
+    },
+    {
+        "query": "<img>None</img>\nWhich tense does the sentence use?\nMona will print her name with care.\nChoices: ['present tense', 'future tense', 'past tense']",
+        "response": "Answer: future tense\nSolution: The sentence is in future tense. You can tell because it uses will before the main verb, print. The verb tells you about something that is going to happen."
+    },
+    {
+        "query": "<img>None</img>\nComplete the sentence.\nSewing an apron is a ().\nChoices: ['chemical change', 'physical change']",
+        "response": "Answer: physical change\nSolution: Sewing an apron is a physical change. The fabric and thread that make up the apron get a new shape, but the type of matter in each of them does not change."
+    },
+    {
+        "query": "<img>None</img>\nWhich of the following contains a vague pronoun reference?\nChoices: [\"Steven's brother Jim wondered whether he ran fast enough to qualify for the Boston Marathon.\", \"Steven's brother Jim wondered whether Steven ran fast enough to qualify for the Boston Marathon.\"]",
+        "response": "Answer: Steven's brother Jim wondered whether he ran fast enough to qualify for the Boston Marathon.\nSolution: The first answer choice contains a vague pronoun reference. The pronoun he could refer to Steven or Jim.\nThe second answer choice shows a possible correction for the vague pronoun reference. He has been replaced with Steven.\nSteven's brother Jim wondered whether Steven ran fast enough to qualify for the Boston Marathon."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=251x239 at 0x72BDC1D86C80></img>\nWhat is the probability that a goat produced by this cross will be homozygous dominant for the myotonia congenita gene?\nChoices: ['1/4', '0/4', '4/4', '2/4', '3/4']",
+        "response": "Answer: 1/4\nSolution: "
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=563x405 at 0x72BDC1D86CB0></img>\nCompare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: ['neither; the samples have the same temperature', 'sample A', 'sample B']",
+        "response": "Answer: sample B\nSolution: The particles in both samples have the same average speed, but each particle in sample B has more mass than each particle in sample A. So, the particles in sample B have a higher average kinetic energy than the particles in sample A.\nBecause the particles in sample B have the higher average kinetic energy, sample B must have the higher temperature."
+    },
+    {
+        "query": "<img>None</img>\nWhat do these two changes have in common?\ntearing a piece of paper\nbreaking a piece of glass\nChoices: ['Both are only physical changes.', 'Both are chemical changes.', 'Both are caused by cooling.', 'Both are caused by heating.']",
+        "response": "Answer: Both are only physical changes.\nSolution: Step 1: Think about each change.\nTearing a piece of paper is a physical change. The paper tears into pieces. But each piece is still made of paper.\nBreaking a piece of glass is a physical change. The glass gets broken into pieces. But each piece is still made of the same type of matter.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are physical changes. No new matter is created.\nBoth are chemical changes.\nBoth changes are physical changes. They are not chemical changes.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nNeither change is caused by cooling."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=760x506 at 0x72BDC1D86D10></img>\nWhich of these organisms contains matter that was once part of the phytoplankton?\nChoices: ['black rockfish', 'sea otter']",
+        "response": "Answer: black rockfish\nSolution: Use the arrows to follow how matter moves through this food web. For each answer choice, try to find a path of arrows that starts from the phytoplankton.\nThe only arrow pointing to the sea otter starts from the sea urchin. The only arrow pointing to the sea urchin starts from the kelp. No arrow points to the kelp. So, in this food web, matter does not move from the phytoplankton to the sea otter.There are two paths matter can take from the phytoplankton to the plainfin midshipman: phytoplankton->plainfin midshipman. phytoplankton->zooplankton->plainfin midshipman. There is one path matter can take from the phytoplankton to the black rockfish: phytoplankton->zooplankton->black rockfish. There is one path matter can take from the phytoplankton to the zooplankton: phytoplankton->zooplankton."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=378x249 at 0x72BDC1D86D70></img>\nWhich solution has a higher concentration of blue particles?\nChoices: ['neither; their concentrations are the same', 'Solution B', 'Solution A']",
+        "response": "Answer: neither; their concentrations are the same\nSolution: In Solution A and Solution B, the blue particles represent the solute. To figure out which solution has a higher concentration of blue particles, look at both the number of blue particles and the volume of the solvent in each container.\nUse the concentration formula to find the number of blue particles per milliliter.\nSolution A and Solution B have the same number of blue particles per milliliter. So, their concentrations are the same."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=518x80 at 0x72BDC1D86DD0></img>\nThink about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: ['The strength of the magnetic force is the same in both pairs.', 'The magnetic force is stronger in Pair 2.', 'The magnetic force is stronger in Pair 1.']",
+        "response": "Answer: The magnetic force is stronger in Pair 1.\nSolution: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2. So, the magnetic force is stronger in Pair 1 than in Pair 2."
+    },
+    {
+        "query": "<img>None</img>\nWhat is the volume of a large soup pot?\nChoices: ['7 liters', '7 milliliters']",
+        "response": "Answer: 7 liters\nSolution: The better estimate for the volume of a large soup pot is 7 liters.\n7 milliliters is too little."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=152x152 at 0x72BDC1D86E30></img>\nWhat does pollen help a plant do?\nChoices: ['make seeds', 'grow bigger', 'grow new leaves']",
+        "response": "Answer: make seeds\nSolution: Pollen helps the flower make seeds. After pollination, sperm cells from the pollen can combine with the eggs. These fertilized eggs can grow into seeds.\nPollen does not help a plant grow bigger or grow leaves."
+    },
+    {
+        "query": "<img>None</img>\nRead the following excerpt from a student essay. How can the writer best improve his or her word choice?\nWhen I said that I wanted to take a cooking class, I didn't know what I was getting into. I love cooking, but I'm very shy and hate being in the spotlight. The first time the teacher asked me to do a culinary technique, my hands were sweating profusely. As I held the heavy utility knife in my sweaty hand, it fell to the floor. The class had just started, and I had already made a terrible first impression! My face was red, but I got the knife, put it in the sink, took a clean one, and cut the slab of raw bluefin tuna into paper-thin pieces. Everyone in the class—even the instructor—gave me a round of applause.\nChoices: ['by adding technical terms', 'by using more precise verbs', 'by using words with more appropriate connotations']",
+        "response": "Answer: by using more precise verbs\nSolution: The writer could best improve his or her word choice by using more precise verbs.\nFor example, the writer could replace the underlined words with verbs such as announced, realize, adore, abhor, demonstrate, gripped, clanged, retrieved, deposited, selected, and sliced.\nWhen I said that I wanted to take a cooking class, I didn't know what I was getting into. I love cooking, but I'm very shy and hate being in the spotlight. The first time the teacher asked me to do a culinary technique, my hands were sweating profusely. As I held the heavy utility knife in my sweaty hand, it fell to the floor. The class had just started, and I had already made a terrible first impression! My face was red, but I got the knife, put it in the sink, took a clean one, and cut the slab of raw bluefin tuna into paper-thin pieces. Everyone in the class—even the instructor—gave me a round of applause."
+    },
+    {
+        "query": "<img>None</img>\nWhat information supports the conclusion that Logan inherited this trait?\nChoices: [\"Logan's mother has blue eyes. She passed this trait down to Logan.\", 'Logan likes to wear a blue sweater to match his blue eyes.']",
+        "response": "Answer: Logan's mother has blue eyes. She passed this trait down to Logan.\nSolution: "
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=172x208 at 0x72BDC1D86E90></img>\nWhich property matches this object?\nChoices: ['flexible', 'sticky']",
+        "response": "Answer: flexible\nSolution: Look at the object.\nThink about each property.\nA flexible object can be folded or bent without breaking easily. The helium balloons are flexible.\nA sticky object can attach or stick to other things. The helium balloons are not sticky."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=750x429 at 0x72BDC1D86EF0></img>\nWhat is the capital of South Carolina?\nChoices: ['Columbia', 'Montgomery', 'Charleston', 'Harrisburg']",
+        "response": "Answer: Columbia\nSolution: Columbia is the capital of South Carolina."
+    },
+    {
+        "query": "<img>None</img>\nIs the following trait inherited or acquired?\nKaty plays soccer.\nChoices: ['inherited', 'acquired']",
+        "response": "Answer: acquired\nSolution: People are not born knowing how to play soccer. Instead, some people learn how to play soccer. Playing the sport takes practice. So, playing soccer is an acquired trait."
+    },
+    {
+        "query": "<img>None</img>\nBased on this information, what is Holly's phenotype for the whisker type trait?\nChoices: ['straight whiskers', 'curved whiskers']",
+        "response": "Answer: straight whiskers\nSolution: You need to determine Holly's phenotype for the whisker type trait. First, consider the alleles in Holly's genotype for the whisker type gene. Then, decide whether these alleles are dominant or recessive.\nThe allele for curved whiskers (h) is recessive to the allele for straight whiskers (H). This means H is a dominant allele, and h is a recessive allele.\nHolly's genotype of Hh has one dominant allele and one recessive allele. An organism with at least one dominant allele for a gene will have the dominant allele's version of the trait. So, Holly's phenotype for the whisker type trait must be straight whiskers."
+    },
+    {
+        "query": "<img>None</img>\nSelect the solid.\nChoices: ['rain', 'water in a fishbowl', 'hammer']",
+        "response": "Answer: hammer\nSolution: "
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=246x235 at 0x72BDC1D86F50></img>\nWhat is the probability that a koi fish produced by this cross will have black eyes?\nChoices: ['0/4', '1/4', '4/4', '3/4', '2/4']",
+        "response": "Answer: 0/4\nSolution: "
+    },
+    {
+        "query": "<img>None</img>\nWhich figure of speech is used in this text?\nHunter remarked that the new book on anti-gravity was impossible to put down.\nChoices: ['alliteration', 'pun']",
+        "response": "Answer: pun\nSolution: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=556x208 at 0x72BDC1D86FB0></img>\nWhich property do these three objects have in common?\nChoices: ['hard', 'soft', 'yellow']",
+        "response": "Answer: soft\nSolution: Look at each object.\nFor each object, decide if it has that property.\nA hard object does not change shape when pressed or squeezed. None of the objects are hard.\nYellow is a color.\nThis color is yellow. None of the objects are yellow.\nA soft object changes shape when pressed or squeezed. All three objects are soft.\nThe property that all three objects have in common is soft."
+    },
+    {
+        "query": "<img>None</img>\nWhat information supports the conclusion that Aaron acquired this trait?\nChoices: ['Aaron is most interested in plant biology.', 'Aaron learned biology by doing experiments.']",
+        "response": "Answer: Aaron learned biology by doing experiments.\nSolution: "
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=750x429 at 0x72BDC1D87010></img>\nWhat is the capital of Colorado?\nChoices: ['Baton Rouge', 'Denver', 'Sacramento', 'Spokane']",
+        "response": "Answer: Denver\nSolution: Denver is the capital of Colorado."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=162x162 at 0x72BDC1D87070></img>\nSelect the fish below.\nChoices: ['black howler', 'cardinalfish']",
+        "response": "Answer: cardinalfish\nSolution: A cardinalfish is a fish. It lives underwater. It has fins, not limbs.\nCardinalfish often live near coral reefs. They are nocturnal, which means that they are active mostly at night.\nA black howler is a mammal. It has hair and feeds its young milk.\nHowler monkeys have loud calls, or howls. Their calls can be heard over three miles away!"
+    },
+    {
+        "query": "<img>None</img>\nHow long is a guitar?\nChoices: ['1 centimeter', '1 meter', '1 kilometer', '1 millimeter']",
+        "response": "Answer: 1 meter\nSolution: The best estimate for the length of a guitar is 1 meter.\n1 millimeter and 1 centimeter are too short. 1 kilometer is too long."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=564x315 at 0x72BDC1D870D0></img>\nComplete the statement.\nTungsten carbide is ().\nChoices: ['an elementary substance', 'a compound']",
+        "response": "Answer: a compound\nSolution: Use the model to determine whether tungsten carbide is an elementary substance or a compound.\nStep 1: Interpret the model.\n.\nUse the legend to determine the chemical element represented by each color. The colors and atomic symbols from the legend are shown in the table below. The table also includes the names of the chemical elements represented in the model.\nYou can see from the model that tungsten carbide is composed of carbon atoms and tungsten atoms bonded together.\nStep 2: Determine whether the substance is an elementary substance or a compound.\nYou know from Step 1 that tungsten carbide is composed of two chemical elements: carbon and tungsten. Since tungsten carbide is composed of multiple chemical elements bonded together, tungsten carbide is a compound."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=728x174 at 0x72BDC1D87130></img>\nWhat can Maureen and Kendrick trade to each get what they want?\nChoices: [\"Kendrick can trade his broccoli for Maureen's oranges.\", \"Kendrick can trade his almonds for Maureen's tomatoes.\", \"Maureen can trade her tomatoes for Kendrick's broccoli.\", \"Maureen can trade her tomatoes for Kendrick's carrots.\"]",
+        "response": "Answer: Maureen can trade her tomatoes for Kendrick's broccoli.\nSolution: Look at the table and images.\nMaureen wants broccoli. Kendrick wants tomatoes. They can trade tomatoes for broccoli to both get what they want. Trading other things would not help both people get more items they want."
+    },
+    {
+        "query": "<img>None</img>\nSelect the living thing.\nChoices: ['teddy bear', 'amoebae', 'van', 'kite']",
+        "response": "Answer: amoebae\nSolution: A teddy bear is not a living thing.\nTeddy bears do not have all of the traits of living things. They do not grow or respond to their environment. They do not need food or water.\nA kite is not a living thing.\nA kite does not have all the traits of a living thing. It moves fast in the wind, but it does not grow. It does not need food or water.\nA van is not a living thing.\nA van does not have all the traits of a living thing. Vans need energy, but they do not eat food. They get energy from gasoline or electricity. Vans do not grow.\nAmoebae are living things.\nAmoebae grow and respond to their environment. They need food and water.\nAmoebae are made up of just one cell. Amoebae live in fresh water, in salt water, and in the soil."
+    },
+    {
+        "query": "<img>None</img>\nWhich organ controls the function of other body organs?\nChoices: ['skeleton', 'lungs', 'heart', 'brain']",
+        "response": "Answer: brain\nSolution: "
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=246x241 at 0x72BDC1D87190></img>\nWhat is the expected ratio of offspring with a hairy body to offspring with a hairless body? Choose the most likely ratio.\nChoices: ['3:1', '4:0', '2:2', '0:4', '1:3']",
+        "response": "Answer: 4:0\nSolution: To determine how many boxes in the Punnett square represent offspring with a hairy body or a hairless body, consider whether each phenotype is the dominant or recessive allele's version of the body hair trait. The question tells you that the B allele, which is for a hairy body, is dominant over the b allele, which is for a hairless body.\nA hairy body is the dominant allele's version of the body hair trait. A deer mouse with the dominant version of the body hair trait must have at least one dominant allele for the body hair gene. So, offspring with a hairy body must have the genotype BB or Bb.\nAll 4 boxes in the Punnett square have the genotype BB or Bb.\nA hairless body is the recessive allele's version of the body hair trait. A deer mouse with the recessive version of the body hair trait must have only recessive alleles for the body hair gene. So, offspring with a hairless body must have the genotype bb.\nThere are 0 boxes in the Punnett square with the genotype bb.\nSo, the expected ratio of offspring with a hairy body to offspring with a hairless body is 4:0. This means that, based on the Punnett square, this cross will always produce offspring with a hairy body. This cross is expected to never produce offspring with a hairless body."
+    },
+    {
+        "query": "<img>None</img>\nWhich object has more thermal energy?\nChoices: ['a cherry pie at a temperature of 90°F', 'a cherry pie at a temperature of 85°F']",
+        "response": "Answer: a cherry pie at a temperature of 90°F\nSolution: The two cherry pies have the same mass but different temperatures. Since the 90°F pie is hotter than the 85°F pie, it has more thermal energy."
+    },
+    {
+        "query": "<img>None</img>\nIs the following trait inherited or acquired?\nBobby has a scar on his left leg.\nChoices: ['inherited', 'acquired']",
+        "response": "Answer: acquired\nSolution: Children do not inherit their parent's scars. Instead, scars are caused by the environment. People can get scars after they get hurt. So, having a scar is an acquired trait."
+    },
+    {
+        "query": "<img>None</img>\nWhich word would you find on a dictionary page with the following guide words?\nfile - four\nChoices: ['flea', 'fatigue']",
+        "response": "Answer: flea\nSolution: Put the words in alphabetical order.\nSince flea is between the guide words file - four, it would be found on that page."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=302x232 at 0x72BDC1D871F0></img>\nIdentify the question that Gabe's experiment can best answer.\nChoices: ['Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?', 'Does temperature affect how much bacteria can grow in liquid?']",
+        "response": "Answer: Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?\nSolution: "
+    },
+    {
+        "query": "<img>None</img>\nUsing only these supplies, which question can Jeremiah investigate with an experiment?\nChoices: ['Is the pet lizard more active when its tank is heated with one heating lamp or with two heating lamps?', 'Is the pet lizard more active when it is fed insects or lettuce?', 'Is the pet lizard more active when it is fed crickets or mealworms?']",
+        "response": "Answer: Is the pet lizard more active when it is fed crickets or mealworms?\nSolution: "
+    },
+    {
+        "query": "<img>None</img>\nBased on this information, what is Bambi's genotype for the coat color gene?\nChoices: ['a black coat', 'LL']",
+        "response": "Answer: LL\nSolution: An organism's genotype for a gene is its combination of alleles for that gene. Bambi has two alleles for a black coat (L). So, Bambi's genotype for the coat color gene is LL."
+    },
+    {
+        "query": "<img>None</img>\nWould you find the word oasis on a dictionary page with the following guide words?\norange - ought\nChoices: ['no', 'yes']",
+        "response": "Answer: no\nSolution: Put the words in alphabetical order.\nSince oasis is not between the guide words orange - ought, it would not be found on that page."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=132x183 at 0x72BDC1D87250></img>\nIs a scarf a solid or a liquid?\nChoices: ['a solid', 'a liquid']",
+        "response": "Answer: a solid\nSolution: A scarf is a solid. You can fold a scarf. But it will still have a size and shape of its own."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=202x202 at 0x72BDC1D872B0></img>\nWhich animal is also adapted for climbing trees?\nChoices: ['takin', 'red-handed tamarin']",
+        "response": "Answer: red-handed tamarin\nSolution: Look at the picture of the Sumatran orangutan.\nThe Sumatran orangutan has long fingers and toes. It is adapted for climbing trees. The Sumatran orangutan uses its long fingers and toes to hold on to branches while climbing.\nNow look at each animal. Figure out which animal has a similar adaptation.\nThe red-handed tamarin has long fingers and toes. It is adapted for climbing trees.\nThe takin has four hoofed feet. It is not adapted for climbing trees. The takin uses its feet to walk and run."
+    },
+    {
+        "query": "<img>None</img>\nWhich word does not rhyme?\nChoices: ['bike', 'hike', 'fine']",
+        "response": "Answer: fine\nSolution: The words hike and bike rhyme. They both end with the ike sound.\nThe word fine does not rhyme. It ends with a different sound."
+    },
+    {
+        "query": "<img>None</img>\nWhich is a compound sentence?\nChoices: ['Last night we heard an owl outside in the oak tree.', 'I ate all of my dinner, so I can have some pie.']",
+        "response": "Answer: I ate all of my dinner, so I can have some pie.\nSolution: The first sentence is the compound sentence. It is made up of two simple sentences joined by a comma and the conjunction so.\nI ate all of my dinner, so I can have some pie."
+    },
+    {
+        "query": "<img>None</img>\nIs this a run-on sentence?\nIf you have a hankering for a delicious bowl of soup, you should try Mr. Montoya's smoked French onion soup made with Vidalia onions, smoked Gruyère cheese, and fresh thyme.\nChoices: ['no', 'yes']",
+        "response": "Answer: no\nSolution: This is not a run-on sentence. It is not formed from two sentences that have been run together without appropriate punctuation.\nIf you have a hankering for a delicious bowl of soup, you should try Mr. Montoya's smoked French onion soup made with Vidalia onions, smoked Gruyère cheese, and fresh thyme."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=302x232 at 0x72BDC1D87310></img>\nWhich of the following was a dependent variable in this experiment?\nChoices: ['the type of liquid used', 'the number of rusted steel squares']",
+        "response": "Answer: the number of rusted steel squares\nSolution: "
+    },
+    {
+        "query": "<img>None</img>\nLast year, there were seven men's clothing stores on Main Street in Springtown. This year, there are only three. What probably happened to the overall supply of men's shirts in Springtown?\nChoices: ['The supply probably went up.', 'The supply probably went down.']",
+        "response": "Answer: The supply probably went down.\nSolution: When four men's clothing stores closed on Main Street, the number of suppliers went down. There were fewer stores selling men's shirts. So, the supply of men's shirts probably went down."
+    },
+    {
+        "query": "<img>None</img>\nWould you find the word forgot on a dictionary page with the following guide words?\nfalse - fro\nChoices: ['yes', 'no']",
+        "response": "Answer: yes\nSolution: Put the words in alphabetical order.\nSince forgot is between the guide words false - fro, it would be found on that page."
+    },
+    {
+        "query": "<img>None</img>\nWhich sentence states a fact?\nChoices: ['The prettiest parts of the Rocky Mountains are in the state of Wyoming.', 'In the United States, the Rocky Mountains stretch from New Mexico to Montana.']",
+        "response": "Answer: In the United States, the Rocky Mountains stretch from New Mexico to Montana.\nSolution: The second sentence states a fact.\nIn the United States, the Rocky Mountains stretch from New Mexico to Montana.\nIt can be proved by checking a map of the United States.\nThe first sentence states an opinion.\nThe prettiest parts of the Rocky Mountains are in the state of Wyoming.\nPrettiest shows what a person believes, thinks, or feels. Another person might have a different opinion about where the prettiest parts of the Rocky Mountains are."
+    },
+    {
+        "query": "<img>None</img>\nHow long is a walk across Central Park in New York City?\nChoices: ['3 centimeters', '3 millimeters', '3 kilometers', '3 meters']",
+        "response": "Answer: 3 kilometers\nSolution: The best estimate for the length of a walk across Central Park in New York City is 3 kilometers.\n3 millimeters, 3 centimeters, and 3 meters are all too short."
+    },
+    {
+        "query": "<img>None</img>\nDoes this passage describe the weather or the climate?\nThere was rain and sleet in Sioux Falls, South Dakota, last weekend.\nChoices: ['weather', 'climate']",
+        "response": "Answer: weather\nSolution: Read the text carefully.\nThere was rain and sleet in Sioux Falls, South Dakota, last weekend.\nThis passage tells you about the precipitation in Sioux Falls last weekend. It describes the atmosphere at a certain place and time. So, this passage describes the weather."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=504x149 at 0x72BDC1D87370></img>\nThink about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: ['The magnitude of the magnetic force is smaller in Pair 2.', 'The magnitude of the magnetic force is smaller in Pair 1.', 'The magnitude of the magnetic force is the same in both pairs.']",
+        "response": "Answer: The magnitude of the magnetic force is smaller in Pair 2.\nSolution: The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nDistance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between the magnets in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=144x186 at 0x72BDC1D873D0></img>\nIs chalk a solid, a liquid, or a gas?\nChoices: ['a liquid', 'a solid', 'a gas']",
+        "response": "Answer: a solid\nSolution: Chalk is a solid. You can easily break chalk into pieces. But each piece will still have a size and shape of its own."
+    },
+    {
+        "query": "<img>None</img>\nSelect the temperature shown by this thermometer.\nChoices: ['45°F', '30°F', '80°F']",
+        "response": "Answer: 45°F\nSolution: Find the top of the red liquid.\nNow look at the scale to the right. The top of the red liquid is halfway between 40 and 50. So, the temperature is 45°F."
+    },
+    {
+        "query": "<img>None</img>\nWhich is a compound sentence?\nChoices: ['Mr. Smith peeled the tangerine and divided it into sections.', 'Before the performance, Maura tied a satin sash around her waist, and Kimberly braided her hair.']",
+        "response": "Answer: Before the performance, Maura tied a satin sash around her waist, and Kimberly braided her hair.\nSolution: The first sentence is the compound sentence. It is made up of two independent clauses joined by the coordinating conjunction and.\nBefore the performance, Maura tied a satin sash around her waist, and Kimberly braided her hair."
+    },
+    {
+        "query": "<img>None</img>\nBased on this information, what is Squirt's phenotype for the tail spots trait?\nChoices: ['a spotted tail', 'an unspotted tail']",
+        "response": "Answer: a spotted tail\nSolution: You need to determine Squirt's phenotype for the tail spots trait. First, consider the alleles in Squirt's genotype for the tail spots gene. Then, decide whether these alleles are dominant or recessive.\nThe allele for a spotted tail (I) is dominant over the allele for an unspotted tail (i). This means I is a dominant allele, and i is a recessive allele.\nSquirt's genotype of Ii has one dominant allele and one recessive allele. An organism with at least one dominant allele for a gene will have the dominant allele's version of the trait. So, Squirt's phenotype for the tail spots trait must be a spotted tail."
+    },
+    {
+        "query": "<img>None</img>\nSelect the reptile.\nChoices: ['eagle ray', 'dwarf crocodile', 'California newt', 'harbor seal']",
+        "response": "Answer: dwarf crocodile\nSolution: An eagle ray is a fish. It lives underwater. It has fins, not limbs.\nRays have a different shape than many other fish. Rays are large and flat. They have wide, triangle-shaped fins that help them swim long distances.\nA harbor seal is a mammal. It has fur and feeds its young milk.\nSeals have flippers instead of arms! They use their flippers to swim underwater or to crawl on the beach.\nA dwarf crocodile is a reptile. It has scaly, waterproof skin.\nCrocodiles hunt their prey in or near water.\nA California newt is an amphibian. It has moist skin and begins its life in water.\nSome newts live in water. Other newts live on land but lay their eggs in water."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=378x251 at 0x72BDC1D87430></img>\nWhich solution has a higher concentration of yellow particles?\nChoices: ['neither; their concentrations are the same', 'Solution B', 'Solution A']",
+        "response": "Answer: Solution B\nSolution: In Solution A and Solution B, the yellow particles represent the solute. To figure out which solution has a higher concentration of yellow particles, look at both the number of yellow particles and the volume of the solvent in each container.\nUse the concentration formula to find the number of yellow particles per milliliter.\nSolution B has more yellow particles per milliliter. So, Solution B has a higher concentration of yellow particles."
+    },
+    {
+        "query": "<img>None</img>\nWould you find the word miracle on a dictionary page with the following guide words?\nmean - mumps\nChoices: ['no', 'yes']",
+        "response": "Answer: yes\nSolution: Put the words in alphabetical order.\nSince miracle is between the guide words mean - mumps, it would be found on that page."
+    },
+    {
+        "query": "<img>None</img>\nWhich greeting is correct for a letter?\nChoices: ['Dear ms. Allen,', 'Dear Ms. Allen,']",
+        "response": "Answer: Dear Ms. Allen,\nSolution: The first greeting is correct:\nIts first word is capitalized, and it ends with a comma. Ms. Allen is capitalized because it is a proper noun."
+    },
+    {
+        "query": "<img>None</img>\nUsing only these supplies, which question can Stefan investigate with an experiment?\nChoices: ['Does vegetable oil separate faster when stirred together with vinegar or with water?', 'Does vegetable oil separate faster when stirred together with cold water or with hot water?', 'Does vinegar separate faster when stirred together with olive oil or with coconut oil?']",
+        "response": "Answer: Does vegetable oil separate faster when stirred together with vinegar or with water?\nSolution: "
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=202x202 at 0x72BDC1D87490></img>\nWhich animal's feet are also adapted for swimming?\nChoices: ['blue-footed booby', 'tokay gecko']",
+        "response": "Answer: blue-footed booby\nSolution: Look at the picture of the Atlantic puffin.\nThe Atlantic puffin has webbed feet. Its feet are adapted for swimming. As it swims, the Atlantic puffin uses its webbed feet to push itself through water.\nNow look at each animal. Figure out which animal has a similar adaptation.\nThe blue-footed booby has webbed feet. Its feet are adapted for swimming.\nThe tokay gecko has wide, sticky toes. Its feet are not adapted for swimming. The tokay gecko uses its feet to climb trees and walk on leaves."
+    },
+    {
+        "query": "<img>None</img>\nWhich is a simple sentence?\nChoices: ['In the early morning, I drank tea by a spice stall as the Turkish bazaar came to life.', 'The gutters were full of leaves and in need of cleaning.']",
+        "response": "Answer: The gutters were full of leaves and in need of cleaning.\nSolution: The first sentence is the simple sentence. It is a single independent clause.\nThe gutters were full of leaves and in need of cleaning."
+    },
+    {
+        "query": "<img>None</img>\nAssume all other forces on Tamir are balanced. Which statement describes the forces on Tamir?\nChoices: ['The forces are balanced, so there is no net force on Tamir.', 'The forces are unbalanced, so there is a net force on Tamir.']",
+        "response": "Answer: The forces are balanced, so there is no net force on Tamir.\nSolution: To determine if there is a net force on Tamir, look at the forces:\nEarth's gravity is pulling Tamir down with a force of 400 N.\nThe diving board is pushing Tamir up with a force of 400 N.\nThe forces are in opposite directions, and the forces have the same magnitude: 400 N. This means that the forces are balanced, so there is no net force on Tamir."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=378x251 at 0x72BDC1D874F0></img>\nWhich solution has a higher concentration of green particles?\nChoices: ['Solution A', 'Solution B', 'neither; their concentrations are the same']",
+        "response": "Answer: Solution A\nSolution: In Solution A and Solution B, the green particles represent the solute. To figure out which solution has a higher concentration of green particles, look at both the number of green particles and the volume of the solvent in each container.\nUse the concentration formula to find the number of green particles per milliliter.\nSolution A has more green particles per milliliter. So, Solution A has a higher concentration of green particles."
+    },
+    {
+        "query": "<img>None</img>\nWhich sentence states a fact?\nChoices: ['The giant anteater uses its sticky tongue to grab insects.', 'The eating habits of the giant anteater are disgusting.']",
+        "response": "Answer: The giant anteater uses its sticky tongue to grab insects.\nSolution: The first sentence states a fact.\nThe giant anteater uses its sticky tongue to grab insects.\nIt can be proved by looking up information about anteaters.\nThe second sentence states an opinion.\nThe eating habits of the giant anteater are disgusting.\nDisgusting shows what a person believes, thinks, or feels. Another person might have a different opinion about what is disgusting."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=750x429 at 0x72BDC1D87550></img>\nWhat is the capital of Washington?\nChoices: ['Santa Fe', 'Seattle', 'New Orleans', 'Olympia']",
+        "response": "Answer: Olympia\nSolution: Olympia is the capital of Washington."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=750x429 at 0x72BDC1D875B0></img>\nWhat is the capital of New York?\nChoices: ['Albany', 'Lansing', 'Buffalo', 'Hartford']",
+        "response": "Answer: Albany\nSolution: Albany is the capital of New York."
+    },
+    {
+        "query": "<img>None</img>\nWhich figure of speech is used in this text?\nRebecca's Bistro used to be a great place to go for a delicious and carefully prepared dinner, but nobody goes there anymore: it's too crowded.\nChoices: ['apostrophe', 'paradox']",
+        "response": "Answer: paradox\nSolution: The text uses a paradox, a statement that might at first appear to be contradictory, but that may in fact contain some truth.\nNobody goes there anymore: it's too crowded at first appears to be contradictory, because if no one goes to the restaurant, then the restaurant should be empty, not crowded. However, it contains some truth: if a restaurant is frequently perceived to be too crowded, many people will no longer want to go there."
+    },
+    {
+        "query": "<img>None</img>\nComplete the sentence.\nIn this chemical reaction, glucose is a ().\nChoices: ['reactant', 'product']",
+        "response": "Answer: product\nSolution: Read the underlined text carefully. Look for information about what happens to glucose in this chemical reaction.\nPlants make glucose, a sugar they can use for food, through a process called photosynthesis. During photosynthesis, plants use energy from sunlight to make glucose from water and carbon dioxide. In the process of making glucose, plants also create most of the oxygen in the air we breathe.\nThe underlined text tells you that glucose forms when water combines with carbon dioxide. Because glucose is produced by this chemical reaction, glucose is a product."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=578x389 at 0x72BDC1D87610></img>\nWhich cones make pollen?\nChoices: ['pollinated cones', 'male cones']",
+        "response": "Answer: male cones\nSolution: Male cones make pollen.\nWhen pollen sticks to a female cone, the female cone becomes pollinated. Pollinated cones do not produce pollen."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=728x266 at 0x72BDC1D87670></img>\nWhat can Debbie and Madelyn trade to each get what they want?\nChoices: [\"Madelyn can trade her broccoli for Debbie's oranges.\", \"Debbie can trade her tomatoes for Madelyn's broccoli.\", \"Debbie can trade her tomatoes for Madelyn's sandwich.\", \"Madelyn can trade her almonds for Debbie's tomatoes.\"]",
+        "response": "Answer: Debbie can trade her tomatoes for Madelyn's broccoli.\nSolution: Debbie wanted broccoli in her lunch and Madelyn was hoping for tomatoes. Look at the labeled part of the images.\nDebbie has tomatoes. Madelyn has broccoli. They can trade tomatoes for broccoli to both be happier. Trading other things would not help either person get more items they want."
+    },
+    {
+        "query": "<img>None</img>\nWhich figure of speech is used in this text?\nAfter spending weeks in New York City, Florence was a bit unnerved by the deafening silence of her small hometown.\nChoices: ['oxymoron', 'euphemism']",
+        "response": "Answer: oxymoron\nSolution: The text uses an oxymoron, a joining of two seemingly contradictory terms.\nDeafening silence is a contradiction, because deafening describes something extremely loud, and silence is the absence of sound."
+    },
+    {
+        "query": "<img>None</img>\nComplete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Michelle rode down the hill.\nChoices: ['stayed the same', 'decreased', 'increased']",
+        "response": "Answer: decreased\nSolution: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Michelle started sledding. As Michelle rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Michelle rode down the hill."
+    },
+    {
+        "query": "<img>None</img>\nWhich closing is correct for a letter?\nChoices: ['your friend,\\nCarla', 'Your friend,\\nCarla']",
+        "response": "Answer: Your friend,\nCarla\nSolution: The second closing is correct:\nIts first word is capitalized, and it ends with a comma."
+    },
+    {
+        "query": "<img>None</img>\nBased on this information, what is Zazu's phenotype for the cheek color trait?\nChoices: ['pale orange cheeks', 'bright orange cheeks']",
+        "response": "Answer: bright orange cheeks\nSolution: Zazu's genotype for the cheek color gene is RR. Zazu's genotype of RR has only R allelles. The R allele is for bright orange cheeks. So, Zazu's phenotype for the cheek color trait must be bright orange cheeks.\nTo check this answer, consider whether Zazu's alleles are dominant or recessive. The allele for pale orange cheeks (r) is recessive to the allele for bright orange cheeks (R). This means R is a dominant allele, and r is a recessive allele.\nZazu's genotype of RR has two dominant alleles. An organism with at least one dominant allele for a gene will have the dominant allele's version of the trait. So, Zazu's phenotype for the cheek color trait must be bright orange cheeks."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=560x460 at 0x72BDC1D87970></img>\nComplete the statement.\nPalladium is ().\nChoices: ['a compound', 'an elementary substance']",
+        "response": "Answer: an elementary substance\nSolution: Use the model to determine whether palladium is an elementary substance or a compound.\nStep 1: Interpret the model.\nIn the space-filling model shown above, all of the balls are the same color:\n. The legend shows that dark blue represents the chemical element with the atomic symbol Pd. So, the model shows you that palladium is composed of one chemical element.\nStep 2: Determine whether the substance is an elementary substance or a compound.\nYou know from Step 1 that palladium is composed of only one chemical element. So, palladium is an elementary substance."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=246x239 at 0x72BDC1D86AD0></img>\nWhat is the probability that a Nile tilapia fish produced by this cross will have a greenish-brown body?\nChoices: ['2/4', '3/4', '1/4', '0/4', '4/4']",
+        "response": "Answer: 4/4\nSolution: "
+    },
+    {
+        "query": "<img>None</img>\nSelect the vertebrate.\nChoices: ['redback spider', 'common octopus', 'birdwing butterfly', 'asp viper']",
+        "response": "Answer: asp viper\nSolution: Like other octopuses, a common octopus is an invertebrate. It does not have a backbone. It has a soft body.\nLike other spiders, a redback spider is an invertebrate. It does not have a backbone. It has an exoskeleton.\nA birdwing butterfly is an insect. Like other insects, a birdwing butterfly is an invertebrate. It does not have a backbone. It has an exoskeleton.\nAn asp viper is a reptile. Like other reptiles, an asp viper is a vertebrate. It has a backbone."
+    },
+    {
+        "query": "<img>None</img>\nWhich tense does the sentence use?\nMr. Norman signed his name on the letter.\nChoices: ['past tense', 'present tense', 'future tense']",
+        "response": "Answer: past tense\nSolution: The sentence is in past tense. You can tell because it uses a past-tense verb, signed. The verb ends in -ed and tells you about something that has already happened."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=425x154 at 0x72BDC1D878B0></img>\nIn this food chain, the Mojave yucca is a producer. Why?\nChoices: ['It eats another living thing.', 'It makes its own food.']",
+        "response": "Answer: It makes its own food.\nSolution: In this food chain, the Mojave yucca is a producer because it makes its own food. The Mojave yucca uses carbon dioxide, water, and sunlight to make its own food."
+    },
+    {
+        "query": "<img>None</img>\nWhat do these two changes have in common?\na banana getting ripe on the counter\nnewly poured concrete becoming hard\nChoices: ['Both are caused by heating.', 'Both are chemical changes.', 'Both are caused by cooling.', 'Both are only physical changes.']",
+        "response": "Answer: Both are chemical changes.\nSolution: Step 1: Think about each change.\nA banana getting ripe on the counter is a chemical change. As a banana ripens, the type of matter in it changes. The peel changes color and the inside becomes softer and sweeter.\nConcrete hardening is a chemical change. The chemicals in the concrete react with each other to form a different type of matter. The new matter is hard and strong.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are chemical changes. They are not physical changes.\nBoth are chemical changes.\nBoth changes are chemical changes. The type of matter before and after each change is different.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nNeither change is caused by cooling."
+    },
+    {
+        "query": "<img>None</img>\nWhich text uses the word literally in its traditional sense?\nChoices: ['Cara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally a million years old.', 'Cara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally hundreds of years old.']",
+        "response": "Answer: Cara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally hundreds of years old.\nSolution: The second text uses literally in its traditional sense: in a factual, non-exaggerated way.\nCara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally hundreds of years old.\nThe first text uses literally in its nontraditional sense: nearly or in effect (often exaggerated). The bridge is old, but it is not actually a million years old.\nCara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally a million years old.\nMost style guides recommend to avoid using the nontraditional sense of the word literally because it is generally considered incorrect."
+    },
+    {
+        "query": "<img>None</img>\nCompare the motion of two fish. Which fish was moving at a higher speed?\nChoices: ['a fish that moved 50kilometers in 10hours', 'a fish that moved 85kilometers in 10hours']",
+        "response": "Answer: a fish that moved 85kilometers in 10hours\nSolution: Look at the distance each fish moved and the time it took to move that distance.\nOne fish moved 85 kilometers in 10 hours.\nThe other fish moved 50 kilometers in 10 hours.\nNotice that each fish spent the same amount of time moving. The fish that moved 85 kilometers moved a farther distance in that time. So, that fish must have moved at a higher speed."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=750x429 at 0x72BDC1D86890></img>\nWhich of these states is farthest east?\nChoices: ['Montana', 'New Mexico', 'Arkansas', 'Nebraska']",
+        "response": "Answer: Arkansas\nSolution: To find the answer, look at the compass rose. Look at which way the east arrow is pointing. Arkansas is farthest east."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=497x53 at 0x72BDC1D87700></img>\nWill these magnets attract or repel each other?\nChoices: ['repel', 'attract']",
+        "response": "Answer: attract\nSolution: Will these magnets attract or repel? To find out, look at which poles are closest to each other.\nThe north pole of one magnet is closest to the south pole of the other magnet. Poles that are different attract. So, these magnets will attract each other."
+    },
+    {
+        "query": "<img>None</img>\nWhich sentence is more formal?\nChoices: ['People who did not grow up playing or watching cricket often find it difficult to understand the rules of the sport.', \"People who didn't grow up playing or watching cricket often can't understand the rules of the sport.\"]",
+        "response": "Answer: People who did not grow up playing or watching cricket often find it difficult to understand the rules of the sport.\nSolution: The first sentence is less formal. You can tell because it uses contractions (don't, can't).\nThe second sentence does not use contractions, so it is more formal."
+    },
+    {
+        "query": "<img>None</img>\nWould you find the word pig on a dictionary page with the following guide words?\npardon - polish\nChoices: ['no', 'yes']",
+        "response": "Answer: yes\nSolution: Put the words in alphabetical order.\nSince pig is between the guide words pardon - polish, it would be found on that page."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=750x600 at 0x72BDC1D87520></img>\nWhich country is highlighted?\nChoices: ['Saint Lucia', 'Grenada', 'Haiti', 'Cuba']",
+        "response": "Answer: Haiti\nSolution: This country is Haiti.\nDoes Haiti have any territorial disputes?\nHaiti claims to own Navassa Island, which is a disputed territory. In other words, multiple countries or groups claim that the area rightfully belongs to them.\nNavassa Island is also claimed by the United States. The United States claimed the island in 1857 and has controlled it since then. But Haiti considers the island part of its territory and has protested the United States' claim since this time. No one lives on the island. Today, it is a nature preserve."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=452x595 at 0x72BDC1D86980></img>\nWhat is the name of the colony shown?\nChoices: ['New Jersey', 'Virginia', 'West Virginia', 'Indiana']",
+        "response": "Answer: Virginia\nSolution: The colony is Virginia.\nThe Virginia Colony included land that would later become part of the state of West Virginia. West Virginia was never its own colony."
+    },
+    {
+        "query": "<img>None</img>\nWhat does the verbal irony in this text suggest?\n\"This is the best day of my life,\" Mr. Hogan mumbled after his car broke down on the way to an important job interview.\nChoices: ['Mr. Hogan was having a bad day.', 'Mr. Hogan liked fixing cars.']",
+        "response": "Answer: Mr. Hogan was having a bad day.\nSolution: The text uses verbal irony, which involves saying one thing but implying something very different.\nThe best day of my life ironically suggests that Mr. Hogan was having a bad day. He was having the opposite of a good day because his car broke down when he needed to be on time."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=302x232 at 0x72BDC1D86920></img>\nWhich of the following could Cody's test show?\nChoices: ['how well the weather station would work when it was windy', 'if the weather station would work when the temperature was 50°C']",
+        "response": "Answer: if the weather station would work when the temperature was 50°C\nSolution: "
+    },
+    {
+        "query": "<img>None</img>\nWhich is a complete sentence?\nChoices: ['In summer, insects always fly around the pond.', 'A bag of beans.']",
+        "response": "Answer: In summer, insects always fly around the pond.\nSolution: In summer, insects always fly around the pond is a complete sentence. The subject is insects, and the verb is fly."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=243x84 at 0x72BDC1D879D0></img>\nSelect the chemical formula for this molecule.\nChoices: ['H2F', 'H2F2', 'HF', 'HF2']",
+        "response": "Answer: HF\nSolution: H is the symbol for hydrogen. According to the legend, hydrogen atoms are shown in light gray. F is the symbol for fluorine. According to the legend, fluorine atoms are shown in light green. This ball-and-stick model shows a molecule with one hydrogen atom and one fluorine atom. The chemical formula will contain the symbols H and F. There is one hydrogen atom, so H will not have a subscript. There is one fluorine atom, so F will not have a subscript. The correct formula is HF. The diagram below shows how each part of the chemical formula matches with each part of the model above."
+    },
+    {
+        "query": "<img>None</img>\nWhich metal paper clip has less thermal energy?\nChoices: ['the colder metal paper clip', 'the hotter metal paper clip']",
+        "response": "Answer: the colder metal paper clip\nSolution: The two metal paper clips are made of the same material and have the same mass. So, the colder metal paper clip has less thermal energy."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=599x94 at 0x72BDC1D87A00></img>\nDuring this time, thermal energy was transferred from () to ().\nChoices: ['each aquarium . . . the surroundings', 'the surroundings . . . each aquarium']",
+        "response": "Answer: each aquarium . . . the surroundings\nSolution: The temperature of each aquarium decreased, which means that the thermal energy of each aquarium decreased. So, thermal energy was transferred from each aquarium to the surroundings."
+    },
+    {
+        "query": "<img>None</img>\nComplete the sentence so that it uses personification.\n\"You might think you'll always be young,\" Mrs. Hensley counseled, \"but time ()\".\nChoices: ['creeps up on you', 'affects everyone']",
+        "response": "Answer: creeps up on you\nSolution: Complete the sentence with the phrase creeps up on you. It describes time as if it were a sneaky person."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=750x429 at 0x72BDC1D87A90></img>\nWhat is the capital of Texas?\nChoices: ['Dallas', 'Atlanta', 'Salem', 'Austin']",
+        "response": "Answer: Austin\nSolution: Austin is the capital of Texas."
+    },
+    {
+        "query": "<img>None</img>\nWhich tense does the sentence use?\nScientists will measure the rainfall in Greenville.\nChoices: ['present tense', 'past tense', 'future tense']",
+        "response": "Answer: future tense\nSolution: The sentence is in future tense. You can tell because it uses will before the main verb, measure. The verb tells you about something that is going to happen."
+    },
+    {
+        "query": "<img><PIL.PngImagePlugin.PngImageFile image mode=RGB size=714x595 at 0x72BDC1D87AF0></img>\nWhich of these cities is marked on the map?\nChoices: ['New York City', 'Philadelphia', 'Pittsburgh', 'Washington, D.C.']",
+        "response": "Answer: Washington, D.C.\nSolution: The city is Washington, D.C. Pittsburgh, New York City, and Philadelphia are marked with gray circles on the map below."
+    }
+]
