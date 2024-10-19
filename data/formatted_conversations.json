@@ -1,0 +1,4202 @@
+[
+    {
+        "id": "identity_0",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_0.jpeg</img>\n다음 주 중에서 가장 북쪽에 있는 곳은 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['웨스트버지니아', '루이지애나', '애리조나', '오클라호마']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 웨스트버지니아"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_1",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_1.jpeg</img>\n톰과 저스틴의 실험이 가장 잘 답할 수 있는 질문을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['탁구공이 30° 각도에서 발사된 후 땅에서 굴러가는 것을 45° 각도에서 발사된 후보다 더 빨리 멈추나요?', '탁구공이 30° 각도에서 발사될 때 45° 각도에서 발사될 때보다 더 멀리 이동하나요?']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 탁구공이 30° 각도에서 발사될 때 45° 각도에서 발사될 때보다 더 멀리 이동하나요?"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래의 글은 실험을 설명합니다. 글을 읽고 아래의 지시를 따르세요.\n\n톰은 탁구공을 투석기에 놓고 투석기의 팔을 45° 각도로 당겨 공을 발사했습니다. 그런 다음, 톰은 투석기의 팔을 30° 각도로 당겨 또 다른 탁구공을 발사했습니다. 각 발사마다 그의 친구 저스틴은 투석기와 공이 땅에 닿은 지점 사이의 거리를 측정했습니다. 톰과 저스틴은 동일한 투석기 네 개로 탁구공을 반복해서 발사했습니다. 그들은 45° 각도에서 발사된 공이 이동한 거리와 30° 각도에서 발사된 공이 이동한 거리를 비교했습니다.\n그림: 탁구공을 발사하는 투석기."
+            }
+        ]
+    },
+    {
+        "id": "identity_2",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_2.jpeg</img>\nKathleen과 Bryant의 실험이 가장 잘 답할 수 있는 질문을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['Kathleen의 스노보드가 왁스 층이 있을 때와 없을 때 중 어느 경우에 언덕을 더 빨리 내려오는가?', 'Kathleen의 스노보드가 얇은 왁스 층이 있을 때와 두꺼운 왁스 층이 있을 때 중 어느 경우에 언덕을 더 빨리 내려오는가?']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: Kathleen의 스노보드가 왁스 층이 있을 때와 없을 때 중 어느 경우에 언덕을 더 빨리 내려오는가?"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래의 글은 실험을 설명합니다. 글을 읽고 아래의 지시를 따르세요.\n\nKathleen은 스노보드의 밑면에 얇은 왁스 층을 바르고 언덕을 곧장 내려갔습니다. 그런 다음, 왁스를 제거하고 다시 스노보드를 타고 언덕을 내려갔습니다. 그녀는 왁스를 바른 상태와 바르지 않은 상태를 번갈아 가며 네 번 더 반복했습니다. 그녀의 친구 Bryant는 각 타이밍을 측정했습니다. Kathleen과 Bryant는 왁스를 바른 스노보드로 언덕을 내려가는 평균 시간과 왁스를 바르지 않은 스노보드로 내려가는 평균 시간을 계산했습니다.\n그림: 언덕을 내려가는 스노보드."
+            }
+        ]
+    },
+    {
+        "id": "identity_3",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장은 어떤 시제를 사용하고 있나요? Mona will print her name with care."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['현재 시제', '미래 시제', '과거 시제']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 미래 시제"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_4",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장을 완성하세요. 앞치마를 바느질하는 것은 ()입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['화학적 변화', '물리적 변화']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 물리적 변화"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_5",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 모호한 대명사 참조를 포함하고 있는 문장은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['스티븐의 형제 짐은 그가 보스턴 마라톤에 출전할 만큼 충분히 빠르게 달렸는지 궁금해했다.', '스티븐의 형제 짐은 스티븐이 보스턴 마라톤에 출전할 만큼 충분히 빠르게 달렸는지 궁금해했다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 스티븐의 형제 짐은 그가 보스턴 마라톤에 출전할 만큼 충분히 빠르게 달렸는지 궁금해했다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_6",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_6.jpeg</img>\n이 교배로 태어난 염소가 근긴장성 선천증 유전자의 동형접합 우성일 확률은 얼마인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['1/4', '0/4', '4/4', '2/4', '3/4']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 1/4"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 글은 염소의 근긴장성 선천증 특성에 대해 설명합니다:\n근긴장성 선천증은 일시적인 근육 경직을 유발하는 상태입니다. 근긴장성 선천증을 가진 염소가 휴식 상태에서 달리려고 할 때, 다리 근육이 종종 경직되어 넘어지게 됩니다. 이러한 행동 때문에 이 염소들은 기절 염소라고 불립니다. 근긴장성 선천증은 말, 고양이, 인간을 포함한 다른 포유류에서도 발견됩니다.\n염소 무리 중 일부는 근긴장성 선천증을 가지고 있고, 다른 일부는 그렇지 않습니다. 이 무리에서 근긴장성 선천증 특성의 유전자는 두 개의 대립유전자를 가지고 있습니다. 근긴장성 선천증을 가지는 대립유전자(M)는 가지지 않는 대립유전자(m)보다 우성입니다.\n이 푸넷 사각형은 두 염소 간의 교배를 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_7",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_7.jpeg</img>\n각 샘플의 입자들의 평균 운동 에너지를 비교하세요. 어느 샘플이 더 높은 온도를 가지고 있나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['둘 다 아님; 샘플의 온도는 동일함', '샘플 A', '샘플 B']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 샘플 B"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 다이어그램은 동일한 닫힌, 단단한 용기에 있는 두 순수한 가스 샘플을 보여줍니다. 각 색깔의 공은 하나의 가스 입자를 나타냅니다. 두 샘플은 동일한 수의 입자를 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_8",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 두 가지 변화의 공통점은 무엇인가요? 종이를 찢는 것 유리를 깨는 것"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['둘 다 물리적 변화입니다.', '둘 다 화학적 변화입니다.', '둘 다 냉각에 의해 발생합니다.', '둘 다 가열에 의해 발생합니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 둘 다 물리적 변화입니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_9",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_9.jpeg</img>\n다음 생물 중에서 한때 식물성 플랑크톤의 일부였던 물질을 포함하고 있는 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['블랙 록피쉬', '해달']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 블랙 록피쉬"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래는 캘리포니아 해안의 몬터레이 만에 있는 해양 생태계의 먹이 그물입니다. 먹이 그물은 생물들이 섭취한 물질이 생태계를 통해 어떻게 이동하는지를 모델링합니다. 먹이 그물의 화살표는 생태계 내에서 물질이 생물 간에 어떻게 이동하는지를 나타냅니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_10",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_10.jpeg</img>\n어떤 용액이 더 높은 농도의 파란 입자를 가지고 있나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['둘 다 아님; 농도가 동일함', '용액 B', '용액 A']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 둘 다 아님; 농도가 동일함"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 다이어그램은 두 용액의 모델입니다. 각 파란 공은 하나의 용질 입자를 나타냅니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_11",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_11.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 사실인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['두 쌍의 자기력의 세기는 동일하다.', '쌍 2의 자기력이 더 강하다.', '쌍 1의 자기력이 더 강하다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쌍 1의 자기력이 더 강하다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 동일한 재료로 만들어졌습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_12",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "큰 수프 냄비의 용량은 얼마인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['7리터', '7밀리리터']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 7리터"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_13",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_13.jpeg</img>\n꽃가루는 식물이 무엇을 하는 데 도움을 주나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['씨앗을 만들다', '더 크게 자라다', '새 잎을 자라게 하다']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 씨앗을 만들다"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 꽃의 수컷 부분이 꽃가루를 만듭니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_14",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음은 학생 에세이의 발췌문입니다. 작가가 단어 선택을 어떻게 개선할 수 있을까요?\n제가 요리 수업을 듣고 싶다고 말했을 때, 제가 무엇에 빠져들고 있는지 몰랐습니다. 저는 요리를 좋아하지만, 매우 수줍음이 많고 주목받는 것을 싫어합니다. 선생님이 처음으로 요리 기술을 시도해보라고 했을 때, 제 손은 땀으로 흥건했습니다. 땀으로 젖은 손에 무거운 유틸리티 나이프를 들고 있다가 바닥에 떨어뜨렸습니다. 수업은 이제 막 시작되었고, 저는 이미 끔찍한 첫인상을 남겼습니다! 제 얼굴은 빨개졌지만, 저는 칼을 집어 싱크대에 넣고 깨끗한 칼을 가져와 생참치 덩어리를 종이처럼 얇게 잘랐습니다. 수업에 있는 모든 사람들—심지어 강사까지도—저에게 박수를 보냈습니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['기술 용어를 추가함으로써', '더 정확한 동사를 사용함으로써', '더 적절한 함축적 의미를 가진 단어를 사용함으로써']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 더 정확한 동사를 사용함으로써"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_15",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "로건이 이 특성을 물려받았다는 결론을 뒷받침하는 정보는 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['로건의 어머니는 파란 눈을 가지고 있습니다. 그녀는 이 특성을 로건에게 물려주었습니다.', '로건은 자신의 파란 눈과 어울리도록 파란 스웨터를 입는 것을 좋아합니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 로건의 어머니는 파란 눈을 가지고 있습니다. 그녀는 이 특성을 로건에게 물려주었습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 특성에 대한 설명을 읽어보세요. 로건은 파란 눈을 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_16",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_16.jpeg</img>\n이 물체와 일치하는 특성은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['유연한', '끈적거리는']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 유연한"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 답을 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_17",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_17.jpeg</img>\n사우스캐롤라이나의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['컬럼비아', '몽고메리', '찰스턴', '해리스버그']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 컬럼비아"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_18",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 특성은 유전된 것인가요, 아니면 후천적으로 습득된 것인가요?\nKaty는 축구를 합니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['유전된', '후천적으로 습득된']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 후천적으로 습득된"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_19",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 정보를 바탕으로, 홀리의 수염 유형 형질에 대한 표현형은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['직선 수염', '곡선 수염']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 직선 수염"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 시리아 햄스터 그룹에서, 일부 개체는 직선 수염을 가지고 있고 다른 개체는 곡선 수염을 가지고 있습니다. 이 그룹에서 수염 유형 형질에 대한 유전자는 두 개의 대립유전자를 가지고 있습니다. 곡선 수염(h)에 대한 대립유전자는 직선 수염(H)에 대한 대립유전자에 열성입니다. 홀리는 이 그룹의 시리아 햄스터로, 수염 유형 유전자에 대해 이형접합 유전자형 Hh를 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_20",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "고체를 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['비', '어항 속 물', '망치']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 망치"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_21",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_21.jpeg</img>\n이 교배로 생산된 비단잉어가 검은 눈을 가질 확률은 얼마인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['0/4', '1/4', '4/4', '3/4', '2/4']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 0/4"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 비단잉어 그룹에서 일부 개체는 빨간 눈을 가지고 있고, 다른 개체는 검은 눈을 가지고 있습니다. 이 그룹에서 눈 색깔 특성에 대한 유전자는 두 개의 대립 유전자를 가지고 있습니다. 빨간 눈(E) 유전자는 검은 눈(e) 유전자보다 우성입니다. 이 푸넷 사각형은 두 비단잉어 간의 교배를 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_22",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 글에서 사용된 수사법은 무엇인가요? 헌터는 새로운 반중력 책이 내려놓을 수 없다고 말했다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['두운법', '말장난']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 말장난"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_23",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_23.jpeg</img>\n이 세 가지 물체가 공통적으로 가지고 있는 속성은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['단단함', '부드러움', '노란색']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 부드러움"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 가장 적절한 답을 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_24",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "어떤 정보가 아론이 이 특성을 획득했다는 결론을 뒷받침하나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['아론은 식물 생물학에 가장 관심이 있다.', '아론은 실험을 통해 생물학을 배웠다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아론은 실험을 통해 생물학을 배웠다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 특성에 대한 설명을 읽어보세요. 아론은 생물학에 대해 많이 알고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_25",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_25.jpeg</img>\n콜로라도의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['배턴루지', '덴버', '새크라멘토', '스포캔']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 덴버"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_26",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_26.jpeg</img>\n아래에서 물고기를 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['블랙 하울러', '카디널피쉬']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 카디널피쉬"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 물고기는 물속에 삽니다. 그들은 팔다리가 아닌 지느러미를 가지고 있습니다. 타이거 샤크는 물고기의 한 예입니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_27",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "기타의 길이는 얼마나 되나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['1 센티미터', '1 미터', '1 킬로미터', '1 밀리미터']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 1 미터"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 가장 적절한 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_28",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_28.jpeg</img>\n문장을 완성하세요. 텅스텐 카바이드는 ()입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['단일 원소 물질', '화합물']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 화합물"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 모델은 텅스텐 카바이드를 나타냅니다. 텅스텐 카바이드는 볼펜의 팁을 만드는 데 사용될 수 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_29",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_29.jpeg</img>\n모린과 켄드릭이 원하는 것을 얻기 위해 무엇을 교환할 수 있을까요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['켄드릭이 자신의 브로콜리를 모린의 오렌지와 교환할 수 있습니다.', '켄드릭이 자신의 아몬드를 모린의 토마토와 교환할 수 있습니다.', '모린이 자신의 토마토를 켄드릭의 브로콜리와 교환할 수 있습니다.', '모린이 자신의 토마토를 켄드릭의 당근과 교환할 수 있습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 모린이 자신의 토마토를 켄드릭의 브로콜리와 교환할 수 있습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 교환은 사람들이 상품과 서비스를 교환하기로 동의할 때 발생합니다. 사람들은 무언가를 얻기 위해 무언가를 포기합니다. 때때로 사람들은 물물교환을 하거나 직접적으로 하나의 상품이나 서비스를 다른 것과 교환합니다. 모린과 켄드릭은 학교 식당에서 점심 도시락을 엽니다. 모린과 켄드릭 모두 원하는 것을 전부 얻지 못했습니다. 아래 표는 그들이 각각 원하는 항목을 보여줍니다:\n\n그들의 점심 이미지들을 보고 아래 질문에 답하세요.\n모린의 점심 켄드릭의 점심"
+            }
+        ]
+    },
+    {
+        "id": "identity_30",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "살아있는 것을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['테디베어', '아메바', '밴', '연']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아메바"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_31",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다른 신체 기관의 기능을 조절하는 기관은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['골격', '폐', '심장', '뇌']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 뇌"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_32",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_32.jpeg</img>\n털이 있는 몸을 가진 자손과 털이 없는 몸을 가진 자손의 예상 비율은 무엇인가요? 가장 가능성 있는 비율을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['3:1', '4:0', '2:2', '0:4', '1:3']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 4:0"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 사슴쥐 그룹에서 일부 개체는 털이 있는 몸을 가지고 있고, 다른 개체는 털이 없는 몸을 가지고 있습니다. 이 그룹에서 몸의 털 특성에 대한 유전자는 두 개의 대립유전자를 가지고 있습니다. 털이 있는 몸을 위한 대립유전자(B)는 털이 없는 몸을 위한 대립유전자(b)보다 우성입니다. 이 푸넷 사각형은 두 마리의 사슴쥐 사이의 교배를 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_33",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "어떤 물체가 더 많은 열 에너지를 가지고 있나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['온도가 90°F인 체리 파이', '온도가 85°F인 체리 파이']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 온도가 90°F인 체리 파이"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 물체들은 온도를 제외하고는 동일합니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_34",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 특성은 유전된 것인가요, 아니면 후천적인 것인가요? 바비는 왼쪽 다리에 흉터가 있습니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['유전된 것', '후천적인 것']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 후천적인 것"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_35",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내어가 있는 사전 페이지에서 찾을 수 있는 단어는 무엇인가요? file - four"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['벼룩', '피로']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 벼룩"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_36",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_36.jpeg</img>\n게이브의 실험이 가장 잘 답할 수 있는 질문을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['계피가 들어간 액체에서 계피가 없는 액체보다 더 많은 박테리아가 자라는가?', '온도가 액체에서 박테리아가 자라는 양에 영향을 미치는가?']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 계피가 들어간 액체에서 계피가 없는 액체보다 더 많은 박테리아가 자라는가?"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래의 실험 설명을 읽고 지시에 따라 답을 선택하세요.\n\n게이브는 박테리아가 자랄 수 있는 영양이 풍부한 액체에 박테리아를 섞었습니다. 그는 이 혼합물을 10개의 유리 플라스크 각각에 4온스씩 부었습니다. 10개의 플라스크 중 5개에는 계피 한 티스푼도 추가했습니다. 그는 플라스크에 있는 박테리아가 37°C의 방에서 하룻밤 동안 자라도록 했습니다. 그런 다음, 게이브는 현미경을 사용하여 각 플라스크에서 작은 샘플의 박테리아 수를 세었습니다. 그는 계피가 들어간 액체의 박테리아 양을 계피가 없는 액체의 박테리아 양과 비교했습니다.\n그림: 박테리아를 키우기 위한 액체가 담긴 플라스크."
+            }
+        ]
+    },
+    {
+        "id": "identity_37",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 물품들만 사용하여, 제레마이야가 실험으로 조사할 수 있는 질문은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['애완용 도마뱀이 한 개의 히팅 램프로 탱크가 가열될 때와 두 개의 히팅 램프로 가열될 때 중 어느 때 더 활동적인가요?', '애완용 도마뱀이 곤충을 먹을 때와 상추를 먹을 때 중 어느 때 더 활동적인가요?', '애완용 도마뱀이 귀뚜라미를 먹을 때와 밀웜을 먹을 때 중 어느 때 더 활동적인가요?']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 애완용 도마뱀이 귀뚜라미를 먹을 때와 밀웜을 먹을 때 중 어느 때 더 활동적인가요?"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 제레마이야는 애완용 도마뱀이 있습니다. 제레마이야는 어떤 날에는 도마뱀이 활동적이고 탱크 주위를 돌아다니는 것을 알아차립니다. 다른 날에는 도마뱀이 거의 움직이지 않습니다. 제레마이야는 어떤 요인이 도마뱀의 활동성에 영향을 미치는지 궁금해합니다. 그래서 그는 실험을 설계하기로 결정합니다. 그는 다음과 같은 물품을 가지고 있습니다:\n애완용 도마뱀 한 마리\n살아있는 귀뚜라미\n살아있는 밀웜\n히팅 램프 한 개"
+            }
+        ]
+    },
+    {
+        "id": "identity_38",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 정보를 바탕으로, 밤비의 털 색깔 유전자형은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['검은 털', 'LL']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: LL"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 소 무리 중 일부는 검은 털을 가지고 있고, 다른 일부는 붉은 털을 가지고 있습니다. 이 무리에서 털 색깔 형질의 유전자는 두 개의 대립유전자를 가지고 있습니다. 대립유전자 L은 검은 털을 나타내고, 대립유전자 l은 붉은 털을 나타냅니다. 이 무리의 소인 밤비는 검은 털을 가지고 있습니다. 밤비는 검은 털을 위한 두 개의 대립유전자를 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_39",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내어가 있는 사전 페이지에서 'oasis'라는 단어를 찾을 수 있나요?  \norange - ought"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['아니요', '예']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아니요"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_40",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_40.jpeg</img>\n스카프는 고체인가요, 액체인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['고체', '액체']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 고체"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_41",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_41.jpeg</img>\n나무를 오르기에 적응된 동물은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['타킨', '붉은손 타마린']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 붉은손 타마린"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 수마트라섬의 열대우림에 사는 오랑우탄은 나무를 올라 먹이와 피난처를 찾습니다. 오랑우탄의 손과 발은 나무를 오르기에 적응되어 있습니다.\n그림: 수마트라 오랑우탄."
+            }
+        ]
+    },
+    {
+        "id": "identity_42",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 단어 중에서 운율이 맞지 않는 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['바이크', '하이크', '파인']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 파인"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_43",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 복합문은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['어젯밤 우리는 밖의 참나무에서 부엉이 소리를 들었습니다.', '저는 저녁을 다 먹었으니 파이를 먹을 수 있습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 저는 저녁을 다 먹었으니 파이를 먹을 수 있습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_44",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이것은 이어진 문장인가요?\n만약 맛있는 수프 한 그릇이 먹고 싶다면, 비달리아 양파, 훈제 그뤼에르 치즈, 신선한 타임으로 만든 몬토야 씨의 훈제 프렌치 어니언 수프를 시도해 보세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['아니요', '예']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아니요"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_45",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_45.jpeg</img>\n다음 중 이 실험에서 종속 변수는 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['사용된 액체의 종류', '녹슨 강철 사각형의 수']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 녹슨 강철 사각형의 수"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래의 글은 실험을 설명합니다. 글을 읽고 설명된 변수를 생각해보세요.\n\n팸은 녹슨 조각품을 만들기 위해 강철을 사용하고 있었습니다. 각 조각품을 만든 후, 팸은 조각품의 강철을 소금물로 가득 찬 통에 8시간 동안 담가 녹슬게 했습니다. 팸은 강철이 소금물 대신 식초에 담갔을 때 더 빨리 녹슬지 궁금했습니다.\n이를 알아보기 위해, 팸은 강철 시트 금속을 10개의 사각형으로 자르고 두 개의 동일한 그룹으로 나누었습니다. 한 그룹의 사각형은 소금물로 가득 찬 통에 넣고, 다른 그룹의 사각형은 식초로 가득 찬 통에 넣었습니다. 팸은 8시간 동안 매 시간마다 각 그룹에서 녹슨 강철 사각형의 수를 세었습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_46",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "작년에는 스프링타운의 메인 스트리트에 남성 의류 매장이 7개 있었습니다. 올해는 3개만 남아 있습니다. 스프링타운의 남성 셔츠 공급량에 무슨 일이 일어났을까요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['공급량이 아마도 증가했을 것입니다.', '공급량이 아마도 감소했을 것입니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 공급량이 아마도 감소했을 것입니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_47",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내어가 있는 사전 페이지에서 'forgot'이라는 단어를 찾을 수 있을까요? false - fro"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['예', '아니오']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 예"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_48",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 문장 중 사실을 말하는 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['로키 산맥의 가장 아름다운 부분은 와이오밍 주에 있습니다.', '미국에서 로키 산맥은 뉴멕시코에서 몬태나까지 뻗어 있습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 미국에서 로키 산맥은 뉴멕시코에서 몬태나까지 뻗어 있습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_49",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "뉴욕시의 센트럴 파크를 가로지르는 도보 거리는 얼마나 되나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['3센티미터', '3밀리미터', '3킬로미터', '3미터']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 3킬로미터"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 가장 적절한 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_50",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 글은 날씨를 설명하고 있나요, 아니면 기후를 설명하고 있나요? 지난 주말 사우스다코타주 수폴스에는 비와 진눈깨비가 내렸습니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['날씨', '기후']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 날씨"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_51",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_51.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 맞나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['쌍 2에서 자기력의 크기가 더 작다.', '쌍 1에서 자기력의 크기가 더 작다.', '두 쌍에서 자기력의 크기가 같다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쌍 2에서 자기력의 크기가 더 작다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 같은 재료로 만들어졌지만, 일부는 다른 모양입니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_52",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_52.jpeg</img>\n분필은 고체, 액체, 기체 중 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['액체', '고체', '기체']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 고체"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_53",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 온도계에 표시된 온도를 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['45°F', '30°F', '80°F']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 45°F"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_54",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 복합문은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['스미스 씨는 귤을 껍질을 벗기고 조각으로 나누었습니다.', '공연 전에 모라는 허리에 새틴 띠를 묶었고, 킴벌리는 머리를 땋았습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 공연 전에 모라는 허리에 새틴 띠를 묶었고, 킴벌리는 머리를 땋았습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_55",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 정보를 바탕으로, 스쿼트의 꼬리 반점 형질에 대한 표현형은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['반점이 있는 꼬리', '반점이 없는 꼬리']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 반점이 있는 꼬리"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 구피 무리 중 일부는 반점이 있는 꼬리를 가지고 있고, 다른 일부는 반점이 없는 꼬리를 가지고 있습니다. 이 무리에서 꼬리 반점 형질에 대한 유전자는 두 개의 대립유전자를 가지고 있습니다. 반점이 있는 꼬리(I)에 대한 대립유전자는 반점이 없는 꼬리(i)에 대한 대립유전자보다 우성입니다. 스쿼트는 이 무리의 구피로, 꼬리 반점 유전자에 대해 이형접합 Ii 유전형을 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_56",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "파충류를 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['이글레이', '난쟁이 악어', '캘리포니아 뉴트', '하버 씰']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 난쟁이 악어"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_57",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_57.jpeg</img>\n어떤 용액이 더 높은 농도의 노란 입자를 가지고 있나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['둘 다; 농도가 동일합니다', '용액 B', '용액 A']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 용액 B"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 다이어그램은 두 용액의 모델입니다. 각 노란 공은 하나의 용질 입자를 나타냅니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_58",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내어가 있는 사전 페이지에서 'miracle'이라는 단어를 찾을 수 있나요? mean - mumps"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['아니요', '예']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 예"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_59",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "편지에 적합한 인사는 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['dear ms. allen,', 'dear ms. allen,']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: dear ms. allen,"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_60",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 물품들만 사용하여, 스테판이 실험으로 조사할 수 있는 질문은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['식물성 기름이 식초와 섞었을 때와 물과 섞었을 때 중 어느 쪽이 더 빨리 분리되나요?', '식물성 기름이 차가운 물과 섞었을 때와 뜨거운 물과 섞었을 때 중 어느 쪽이 더 빨리 분리되나요?', '식초가 올리브 오일과 섞었을 때와 코코넛 오일과 섞었을 때 중 어느 쪽이 더 빨리 분리되나요?']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 식물성 기름이 식초와 섞었을 때와 물과 섞었을 때 중 어느 쪽이 더 빨리 분리되나요?"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 스테판은 샐러드 드레싱을 만들기 위해 기름과 식초를 섞습니다. 그는 몇 분 후에 기름과 식초가 분리되는 것을 관찰합니다. 그는 어떤 요인이 액체가 얼마나 빨리 분리되는지에 영향을 미치는지 궁금해합니다. 그래서 그는 실험을 설계하기로 결정합니다. 그는 다음과 같은 물품을 사용할 수 있습니다: 유리병 세 개, 올리브 오일, 식물성 기름, 식초, 차가운 물."
+            }
+        ]
+    },
+    {
+        "id": "identity_61",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_61.jpeg</img>\n어떤 동물의 발이 수영에 적합하게 발달했나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['푸른발 부비', '토케이 게코']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 푸른발 부비"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 동물들은 대부분의 삶을 바다에서 보냅니다. 주로 물고기를 먹으며, 수영과 다이빙을 통해 잡습니다. 이 동물의 발은 수영에 적합하게 발달했습니다.\n그림: 대서양 퍼핀."
+            }
+        ]
+    },
+    {
+        "id": "identity_62",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 단문은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['이른 아침, 터키 시장이 활기를 띠기 시작할 때 나는 향신료 가게 옆에서 차를 마셨다.', '홈통이 낙엽으로 가득 차서 청소가 필요했다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 홈통이 낙엽으로 가득 차서 청소가 필요했다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_63",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "타미르에게 작용하는 다른 모든 힘이 균형을 이루고 있다고 가정하세요. 타미르에게 작용하는 힘을 설명하는 문장은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['힘이 균형을 이루고 있으므로 타미르에게 순수한 힘이 없습니다.', '힘이 불균형하므로 타미르에게 순수한 힘이 있습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 힘이 균형을 이루고 있으므로 타미르에게 순수한 힘이 없습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 타미르는 수영장의 다이빙 보드 위에 서 있습니다. 지구의 중력이 타미르를 400N의 힘으로 아래로 끌어당기고 있습니다. 다이빙 보드는 타미르를 400N의 힘으로 위로 밀어주고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_64",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_64.jpeg</img>\n어떤 용액이 녹색 입자의 농도가 더 높나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['용액 A', '용액 B', '둘 다; 농도가 동일하다']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 용액 A"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 다이어그램은 두 용액의 모델입니다. 각 녹색 공은 하나의 용질 입자를 나타냅니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_65",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 문장 중 사실을 말하는 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['거대한 개미핥기는 끈적한 혀를 사용하여 곤충을 잡습니다.', '거대한 개미핥기의 식습관은 역겹습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 거대한 개미핥기는 끈적한 혀를 사용하여 곤충을 잡습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_66",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_66.jpeg</img>\n워싱턴주의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['산타페', '시애틀', '뉴올리언스', '올림피아']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 올림피아"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_67",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_67.jpeg</img>\n뉴욕의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['올버니', '랜싱', '버팔로', '하트퍼드']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 올버니"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_68",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 글에서 사용된 수사법은 무엇인가요?  \n레베카의 비스트로는 맛있고 정성스럽게 준비된 저녁 식사를 하기에 좋은 장소였지만, 이제는 아무도 가지 않습니다: 너무 붐비기 때문입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['아포스트로피', '역설']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 역설"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_69",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장을 완성하세요. 이 화학 반응에서 포도당은 ()입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['반응물', '생성물']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 생성물"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 글은 화학 반응에 대해 설명합니다. 글을 읽고 아래 지시를 따르세요. 식물은 광합성이라는 과정을 통해 음식으로 사용할 수 있는 당인 포도당을 만듭니다. 광합성 동안 식물은 햇빛의 에너지를 사용하여 물과 이산화탄소로부터 포도당을 만듭니다. 포도당을 만드는 과정에서 식물은 우리가 호흡하는 공기의 대부분의 산소도 생성합니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_70",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_70.jpeg</img>\n어떤 솔방울이 꽃가루를 만드나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['수분된 솔방울', '수컷 솔방울']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 수컷 솔방울"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 다이어그램은 소나무의 생애 주기를 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_71",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_71.jpeg</img>\n데비와 매들린이 서로 원하는 것을 얻기 위해 무엇을 교환할 수 있을까요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['매들린이 자신의 브로콜리를 데비의 오렌지와 교환할 수 있습니다.', '데비가 자신의 토마토를 매들린의 브로콜리와 교환할 수 있습니다.', '데비가 자신의 토마토를 매들린의 샌드위치와 교환할 수 있습니다.', '매들린이 자신의 아몬드를 데비의 토마토와 교환할 수 있습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 데비가 자신의 토마토를 매들린의 브로콜리와 교환할 수 있습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 교환은 사람들이 상품과 서비스를 교환하기로 동의할 때 발생합니다. 사람들은 무언가를 얻기 위해 무언가를 포기합니다. 때때로 사람들은 물물교환을 하거나 직접적으로 상품이나 서비스를 교환합니다. 데비와 매들린은 학교 식당에서 점심 도시락을 엽니다. 둘 다 점심에 더 만족할 수 있습니다. 데비는 점심에 브로콜리를 원했고 매들린은 토마토를 원했습니다. 그들의 점심 이미지들을 보고 아래 질문에 답하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_72",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 글에서 사용된 수사법은 무엇인가요?\n뉴욕에서 몇 주를 보낸 후, 플로렌스는 그녀의 작은 고향의 귀청이 터질 듯한 침묵에 약간 불안해졌다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['모순어법', '완곡어법']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 모순어법"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_73",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장을 완성하세요. 썰매의 질량이 변하지 않았다고 가정합니다. 미셸이 언덕을 내려갈 때 썰매와 지구 사이에 저장된 중력 위치 에너지는 ()."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['변하지 않았다', '감소했다', '증가했다']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 감소했다"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 물체의 운동에 관한 글을 읽어보세요. 눈 오는 날, 미셸은 큰 언덕을 썰매를 타고 내려갔습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_74",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "편지의 올바른 마무리 문구는 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['너의 친구,\\nCarla', '너의 친구,\\nCarla']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 너의 친구,\nCarla"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_75",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 정보를 바탕으로, Zazu의 볼 색깔 형질에 대한 표현형은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['연한 주황색 볼', '밝은 주황색 볼']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 밝은 주황색 볼"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 어떤 앵무새 그룹에서, 일부 개체는 밝은 주황색 볼을 가지고 있고 다른 개체는 연한 주황색 볼을 가지고 있습니다. 이 그룹에서 볼 색깔 형질에 대한 유전자는 두 개의 대립유전자를 가지고 있습니다. 연한 주황색 볼에 대한 대립유전자(r)는 밝은 주황색 볼에 대한 대립유전자(R)에 대해 열성입니다. Zazu는 이 그룹의 앵무새로, 볼 색깔 유전자에 대해 동형접합 RR 유전형을 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_76",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_76.jpeg</img>\n다음 문장을 완성하세요. 팔라듐은 ()입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['화합물', '단일 원소']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 단일 원소"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 모델은 팔라듐을 나타냅니다. 팔라듐은 자동차 엔진에서 발생하는 가스와 반응하여 가스를 덜 해롭게 만드는 금속입니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_77",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_77.jpeg</img>\n이 교배로 생산된 나일 틸라피아 물고기가 녹갈색 몸을 가질 확률은 얼마인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['2/4', '3/4', '1/4', '0/4', '4/4']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 4/4"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 나일 틸라피아 물고리 그룹에서 일부 개체는 녹갈색 몸을 가지고 있고, 다른 개체는 분홍색 몸을 가지고 있습니다. 이 그룹에서 몸 색깔 특성에 대한 유전자는 두 개의 대립유전자를 가지고 있습니다. 분홍색 몸(b)에 대한 대립유전자는 녹갈색 몸(B)에 대한 대립유전자에 열성입니다. 이 푸넷 사각형은 두 나일 틸라피아 물고리의 교배를 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_78",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "척추동물을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['붉은등거미', '일반 문어', '새날개 나비', '아스프 독사']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아스프 독사"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_79",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장은 어떤 시제를 사용하고 있나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['과거 시제', '현재 시제', '미래 시제']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 과거 시제"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_80",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_80.jpeg</img>\n이 먹이 사슬에서 모하비 유카는 생산자입니다. 그 이유는 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['다른 생물을 먹습니다.', '스스로 음식을 만듭니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 스스로 음식을 만듭니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 다이어그램은 남부 캘리포니아의 사막 생태계에서의 먹이 사슬을 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_81",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 두 변화는 어떤 공통점을 가지고 있나요? \n바나나가 카운터에서 익어가는 것, 새로 부은 콘크리트가 단단해지는 것"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['둘 다 가열에 의해 발생합니다.', '둘 다 화학적 변화입니다.', '둘 다 냉각에 의해 발생합니다.', '둘 다 물리적 변화일 뿐입니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 둘 다 화학적 변화입니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_82",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 텍스트 중에서 'literally'라는 단어를 전통적인 의미로 사용한 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['카라는 베니스의 리알토 다리의 고전적인 르네상스 스타일을 좋아합니다. 그녀는 그 다리가 여전히 기능적이라는 것을 알고 놀랐습니다. 그 다리는 문자 그대로 백만 년이 되었습니다.', '카라는 베니스의 리알토 다리의 고전적인 르네상스 스타일을 좋아합니다. 그녀는 그 다리가 여전히 기능적이라는 것을 알고 놀랐습니다. 그 다리는 문자 그대로 수백 년이 되었습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 카라는 베니스의 리알토 다리의 고전적인 르네상스 스타일을 좋아합니다. 그녀는 그 다리가 여전히 기능적이라는 것을 알고 놀랐습니다. 그 다리는 문자 그대로 수백 년이 되었습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_83",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "두 물고기의 움직임을 비교하세요. 어느 물고기가 더 빠른 속도로 움직였나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['10시간 동안 50킬로미터를 이동한 물고기', '10시간 동안 85킬로미터를 이동한 물고기']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 10시간 동안 85킬로미터를 이동한 물고기"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_84",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_84.jpeg</img>\n다음 주 중에서 가장 동쪽에 있는 곳은 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['몬태나', '뉴멕시코', '아칸소', '네브래스카']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아칸소"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_85",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_85.jpeg</img>\n이 자석들은 서로 끌어당길까요, 밀어낼까요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['밀어낸다', '끌어당긴다']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 끌어당긴다"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 두 개의 자석이 그림과 같이 놓여 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_86",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 문장 중 더 격식 있는 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['크리켓을 하거나 보는 것이 익숙하지 않은 사람들은 종종 이 스포츠의 규칙을 이해하기 어렵다고 느낍니다.', '크리켓을 하거나 보는 것이 익숙하지 않은 사람들은 종종 이 스포츠의 규칙을 이해하지 못합니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 크리켓을 하거나 보는 것이 익숙하지 않은 사람들은 종종 이 스포츠의 규칙을 이해하기 어렵다고 느낍니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_87",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내어가 있는 사전 페이지에서 'pig'라는 단어를 찾을 수 있나요? pardon - polish"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['아니요', '예']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 예"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_88",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_88.jpeg</img>\n강조된 나라는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['세인트루시아', '그레나다', '아이티', '쿠바']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아이티"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_89",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_89.jpeg</img>\n표시된 식민지의 이름은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['뉴저지', '버지니아', '웨스트버지니아', '인디애나']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 버지니아"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_90",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 글에서 언어적 아이러니는 무엇을 암시하나요? \"이것은 내 인생 최고의 날이야,\" 중요한 면접으로 가는 길에 차가 고장 난 후 호건 씨가 중얼거렸다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['호건 씨는 나쁜 하루를 보내고 있었다.', '호건 씨는 자동차 수리를 좋아했다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 호건 씨는 나쁜 하루를 보내고 있었다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_91",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_91.jpeg</img>\n다음 중 코디의 테스트가 보여줄 수 있는 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['기상 관측소가 바람이 불 때 얼마나 잘 작동하는지', '기상 관측소가 온도가 50°C일 때 작동하는지']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 기상 관측소가 온도가 50°C일 때 작동하는지"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 사람들은 문제에 대한 해결책을 개발하기 위해 공학 설계 과정을 사용할 수 있습니다. 이 과정의 한 단계는 잠재적인 해결책이 설계 요구 사항을 충족하는지 테스트하는 것입니다. 아래의 글은 문제에 대한 해결책을 테스트하기 위해 공학 설계 과정이 어떻게 사용되었는지를 설명합니다. 글을 읽고 아래 질문에 답하세요.\n\n코디는 온도, 강수량, 풍속을 기록하기 위한 기상 관측소를 설계하고 있는 기계 엔지니어였습니다. 이 기상 관측소는 최고 기록 온도가 40°C인 마을에서 사용될 예정이었습니다. 코디는 기상 관측소가 비정상적으로 더운 날씨에서도 작동할 수 있는지 확인하고 싶었습니다. 그래서 그는 실내 테스트 챔버를 50°C로 설정하고 낮은 습도와 바람이 없는 상태로 두었습니다. 그는 기상 관측소를 챔버에 하룻밤 동안 두었습니다. 다음 날, 그는 기상 관측소가 50°C에서 24시간 후에도 정확한 측정을 표시하는지 확인했습니다.\n그림: 기상 관측소."
+            }
+        ]
+    },
+    {
+        "id": "identity_92",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 완전한 문장은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['여름에는 곤충들이 항상 연못 주위를 날아다닌다.', '콩 한 자루.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 여름에는 곤충들이 항상 연못 주위를 날아다닌다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_93",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_93.jpeg</img>\n이 분자의 화학식을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['H2F', 'H2F2', 'HF', 'HF2']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: HF"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_94",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "어떤 금속 종이 클립이 열 에너지가 더 적은가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['더 차가운 금속 종이 클립', '더 뜨거운 금속 종이 클립']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 더 차가운 금속 종이 클립"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 두 금속 종이 클립은 온도만 다르고 나머지는 동일합니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_95",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_95.jpeg</img>\n이 시간 동안, 열 에너지는 ()에서 ()로 이동했습니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['각 수족관 . . . 주변 환경', '주변 환경 . . . 각 수족관']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 각 수족관 . . . 주변 환경"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 두 개의 동일한 수족관이 열린 창문 옆에 있었습니다. 하나의 수족관은 플라스틱 덮개가 있었고, 다른 하나는 덮개가 없었습니다. 이 표는 1.5시간 동안 각 수족관의 온도 변화를 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_96",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장을 의인화하여 완성하세요. \"당신은 항상 젊을 것이라고 생각할 수도 있지만,\" 헨슬리 부인이 조언했습니다, \"시간은 ()\"."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['당신에게 몰래 다가온다', '모두에게 영향을 미친다']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 당신에게 몰래 다가온다"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_97",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_97.jpeg</img>\n텍사스의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['댈러스', '애틀랜타', '세일럼', '오스틴']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 오스틴"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_98",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장은 어떤 시제를 사용하고 있나요? 과학자들이 그린빌의 강수량을 측정할 것입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['현재 시제', '과거 시제', '미래 시제']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 미래 시제"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_99",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_99.jpeg</img>\n다음 도시 중 지도에 표시된 도시는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['뉴욕시', '필라델피아', '피츠버그', '워싱턴 D.C.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 워싱턴 D.C."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_100",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장이 사용하고 있는 시제는 무엇인가요? Reba는 토마토 소스를 위해 양파를 썬다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['미래 시제', '과거 시제', '현재 시제']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 현재 시제"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_101",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 두 가지 변화의 공통점은 무엇인가요? 바나나 조각이 갈색으로 변함, 햄버거를 굽기"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['둘 다 화학적 변화입니다.', '둘 다 가열에 의해 발생합니다.', '둘 다 냉각에 의해 발생합니다.', '둘 다 물리적 변화일 뿐입니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 둘 다 화학적 변화입니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_102",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_102.jpeg</img>\n수정 해파리와 같은 속(genus)에 속하는 생물을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['구라 빅토리아', '라루스 옥시덴탈리스', '아에쿠오레아 빅토리아']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아에쿠오레아 빅토리아"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 생물은 수정 해파리입니다. 그 학명은 아에쿠오레아 빅토리아입니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_103",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_103.jpeg</img>\n어떤 용액이 녹색 입자의 농도가 더 높나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['용액 A', '둘 다 아님; 농도가 동일함', '용액 B']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 용액 A"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 다이어그램은 두 용액의 모델입니다. 각 녹색 공은 하나의 용질 입자를 나타냅니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_104",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "한 그릇의 수프의 부피는 얼마인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['11컵', '11갤런', '11액량 온스']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 11액량 온스"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 가장 적절한 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_105",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_105.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 사실인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['쌍 1의 자기력이 더 강하다.', '쌍 2의 자기력이 더 강하다.', '두 쌍의 자기력 강도는 동일하다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쌍 1의 자기력이 더 강하다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 동일한 재료로 만들어졌습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_106",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_106.jpeg</img>\n이 네 개의 물체가 공통으로 가지고 있는 속성은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['반투명', '달콤한', '보송보송한']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 달콤한"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 가장 적절한 답을 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_107",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 글에서 사용된 수사법은 무엇인가요? \"이 매트리스는 콘크리트만큼 딱딱해,\" 타일러는 호텔 방에서 침대를 시험해보며 불평했다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['언어적 아이러니', '의인화']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 언어적 아이러니"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_108",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "켄이 마당을 가로질러 수레를 끌기 시작합니다. 매번 같은 속도로 수레를 움직이려면, 켄은 어느 친구를 더 큰 힘으로 끌어야 하나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['32파운드 무게의 친구', '25파운드 무게의 친구']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 32파운드 무게의 친구"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 켄은 두 친구를 수레에 태워줍니다. 한 번에 한 명의 친구가 수레에 앉습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_109",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_109.jpeg</img>\n소녀가 창문을 여는 데 사용하는 힘의 종류는 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['당기기', '밀기']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 밀기"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 소녀가 창문에 힘을 가합니다. 그녀는 그 힘을 사용하여 창문을 엽니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_110",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_110.jpeg</img>\nTallgrass Prairie National Preserve 생태계를 설명하는 문장은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['비가 중간 정도로 내린다.', '영양분이 부족한 토양을 가지고 있다.', '겨울은 춥고 여름은 시원하다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 비가 중간 정도로 내린다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 그림: Tallgrass Prairie National Preserve.\nTallgrass Prairie National Preserve는 캔자스 동부에 위치한 초원 생태계입니다. 이 보호구역은 5피트 이상 자랄 수 있는 풀로 유명합니다. 이 종류의 풀은 한때 북아메리카의 넓은 지역을 덮고 있었지만, 지금은 드뭅니다. 북아메리카의 대부분의 장초는 농지를 만들기 위해 파괴되었습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_111",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "여행 가방은 재화인가요, 서비스인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['재화', '서비스']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 재화"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_112",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_112.jpeg</img>\n아키라와 브룩이 서로 원하는 것을 얻기 위해 무엇을 교환할 수 있을까요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['브룩은 아키라의 오렌지와 자신의 브로콜리를 교환할 수 있습니다.', '브룩은 아키라의 토마토와 자신의 아몬드를 교환할 수 있습니다.', '아키라는 브룩의 샌드위치와 자신의 토마토를 교환할 수 있습니다.', '아키라는 브룩의 브로콜리와 자신의 토마토를 교환할 수 있습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아키라는 브룩의 브로콜리와 자신의 토마토를 교환할 수 있습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 교환은 사람들이 상품과 서비스를 교환하기로 동의할 때 발생합니다. 사람들은 무언가를 얻기 위해 무언가를 포기합니다. 때때로 사람들은 물물교환을 하거나 직접적으로 상품이나 서비스를 교환합니다. 아키라와 브룩은 학교 식당에서 점심 도시락을 엽니다. 둘 다 점심에 더 만족할 수 있습니다. 아키라는 점심에 브로콜리를 원했고 브룩은 토마토를 원했습니다. 그들의 점심 이미지를 보고 아래 질문에 답하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_113",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 문장에서 사용된 관용구는 무엇을 의미하나요?\n\"호랑이도 제 말 하면 온다더니!\" 휘트니가 찰리가 방에 들어오자 말했다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['휘트니가 방금 찰리에 대해 이야기하고 있었다.', '휘트니는 찰리를 믿지 않았다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 휘트니가 방금 찰리에 대해 이야기하고 있었다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_114",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 글에서 사용된 수사법은 무엇인가요?\n\"점심을 거르는 것보다 더 좋아하는 건 없어요,\" 크로포드 씨는 전국을 가로지르는 비행에서 음식이 제공되지 않을 것이라는 소식을 듣고 승무원에게 말했습니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['암시', '언어적 아이러니']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 언어적 아이러니"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_115",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_115.jpeg</img>\n릴리의 실험이 가장 잘 답할 수 있는 질문을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['상자 내부의 온도는 상자의 크기에 따라 달라지나요?', '햇볕에 두었을 때 흰색 상자 내부가 검은색 상자 내부보다 더 뜨거워지나요?']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 햇볕에 두었을 때 흰색 상자 내부가 검은색 상자 내부보다 더 뜨거워지나요?"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래는 실험에 대한 설명입니다. 설명을 읽고 아래 지시를 따르세요.\n\n릴리는 크기가 같은 16개의 종이 신발 상자에 뚜껑을 붙였습니다. 그녀는 8개의 상자를 검은색으로, 나머지 8개의 상자를 흰색으로 칠했습니다. 릴리는 각 상자 측면에 작은 구멍을 뚫고 온도계를 부분적으로 삽입하여 상자 내부의 온도를 측정할 수 있도록 했습니다. 그녀는 상자들을 뒷마당의 직사광선 아래에 두었습니다. 두 시간 후, 릴리는 각 상자 내부의 온도를 측정했습니다. 릴리는 검은색 상자 내부의 평균 온도와 흰색 상자 내부의 평균 온도를 비교했습니다.\n그림: 검은색으로 칠해진 신발 상자."
+            }
+        ]
+    },
+    {
+        "id": "identity_116",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "작년에 벨몬트 시에는 50,000명이 살고 있었습니다. 하지만 그 이후로 8,000명이 이사를 갔습니다. 벨몬트의 전체 주택 매물 공급에 어떤 일이 일어났을 가능성이 높을까요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['공급이 아마 증가했을 것입니다.', '공급이 아마 감소했을 것입니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 공급이 아마 증가했을 것입니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_117",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_117.jpeg</img>\n이 타란툴라의 학명은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['아포노펠마 조니캐시', '아포노펠마 시마니']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아포노펠마 조니캐시"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 타란툴라 종은 캘리포니아의 폴섬 교도소 근처에서 발견되었습니다. 이 종은 교도소에 대해 노래하고 \"검은 옷을 입은 남자\"로 불렸던 음악가 조니 캐시의 이름을 따서 명명되었습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_118",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 특성은 유전된 것인가요, 아니면 후천적으로 습득된 것인가요? 엘리야는 하키를 합니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['유전된', '후천적으로 습득된']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 후천적으로 습득된"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_119",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_119.jpeg</img>\n워싱턴주의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['시애틀', '올림피아', '덴버', '스포캔']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 올림피아"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_120",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장을 완성하세요. 이 화학 반응에서 이산화탄소는 ()입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['생성물', '반응물']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 반응물"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 글은 화학 반응에 대해 설명합니다. 글을 읽고 아래 지시사항을 따르세요. 식물은 광합성이라는 과정을 통해 그들이 음식으로 사용할 수 있는 당인 포도당을 만듭니다. 광합성 동안, 식물은 햇빛의 에너지를 사용하여 물과 이산화탄소로부터 포도당을 만듭니다. 포도당을 만드는 과정에서 식물은 우리가 호흡하는 공기의 대부분의 산소도 생성합니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_121",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 단문은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['이른 아침, 터키 시장이 활기를 띠기 시작할 때 나는 향신료 가게 옆에서 차를 마셨다.', '두란 씨의 오후 강의는 제2차 세계 대전 이전 독일의 예술과 문화에 관한 것이었다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 두란 씨의 오후 강의는 제2차 세계 대전 이전 독일의 예술과 문화에 관한 것이었다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_122",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_122.jpeg</img>\n어떤 새의 부리가 긴 꽃에서 꿀을 얻기 위해 적응되었나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['그라운드 호른빌', '바이올렛 세이버윙']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 바이올렛 세이버윙"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 그린 바이올렛이어는 중앙 및 남아메리카의 숲에 서식합니다. 이 새의 부리 모양은 긴 꽃에서 꿀을 얻기 위해 적응되었습니다.\n그림: 그린 바이올렛이어."
+            }
+        ]
+    },
+    {
+        "id": "identity_123",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_123.jpeg</img>\n다음 주 중에서 가장 북쪽에 있는 곳은 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['웨스트버지니아', '미시시피', '네브래스카', '오클라호마']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 네브래스카"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_124",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_124.jpeg</img>\n갈색 눈을 가진 자손과 빨간 눈을 가진 자손의 예상 비율은 무엇인가요? 가장 가능성 있는 비율을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['3:1', '1:3', '2:2', '4:0', '0:4']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 4:0"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 기니피그 그룹에서 일부 개체는 갈색 눈을 가지고 있고 다른 개체는 빨간 눈을 가지고 있습니다. 이 그룹에서 눈 색깔 특성에 대한 유전자는 두 개의 대립 유전자를 가지고 있습니다. 갈색 눈을 위한 대립 유전자(E)는 빨간 눈을 위한 대립 유전자(e)보다 우성입니다. 이 푸넷 사각형은 두 마리의 기니피그 간의 교배를 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_125",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 특성은 유전된 것인가요, 아니면 습득된 것인가요? 베키는 비행기를 조종할 수 있습니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['습득된 것', '유전된 것']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 습득된 것"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_126",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 단문은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['드라큘라 역할 오디션이 몇 분 안에 시작됩니다.', '제가 소개하는 동안 제 조수가 회의에서 모든 사람에게 보고서를 배포할 것입니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 드라큘라 역할 오디션이 몇 분 안에 시작됩니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_127",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "모래상자의 길이는 얼마나 되나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['2센티미터', '2미터']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 2미터"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_128",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_128.jpeg</img>\n워싱턴주의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['루이빌', '시애틀', '올림피아', '스포캔']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 올림피아"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_129",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내어가 있는 사전 페이지에서 'scoop'이라는 단어를 찾을 수 있을까요? seam - sheriff"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['예', '아니오']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 아니오"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_130",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_130.jpeg</img>\n다음 주 중에서 가장 동쪽에 있는 곳은 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['미시시피', '뉴욕', '몬태나', '미네소타']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 뉴욕"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_131",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_131.jpeg</img>\n버몬트주의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['몬트필리어', '보스턴', '리노', '벌링턴']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 몬트필리어"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_132",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "어떤 정보가 라이언이 이 특성을 습득했다는 결론을 뒷받침하나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['라이언은 여름 캠프에서 불 피우는 법을 배웠다.', '라이언은 불 위에서 음식을 요리할 수 있다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 라이언은 여름 캠프에서 불 피우는 법을 배웠다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 특성에 대한 설명을 읽어보세요. 라이언은 불 피우는 법을 알고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_133",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 책 제목을 올바르게 표시한 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['\"해롤드와 보라색 크레용\"', '***해롤드와 보라색 크레용***']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: ***해롤드와 보라색 크레용***"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_134",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_134.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 맞나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['쌍 1의 자기력 크기가 더 작다.', '두 쌍의 자기력 크기가 같다.', '쌍 2의 자기력 크기가 더 작다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쌍 1의 자기력 크기가 더 작다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 같은 재료로 만들어졌지만, 일부는 크기가 다릅니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_135",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_135.jpeg</img>\n다음 화석 중 더 오래된 것은 무엇인가요? 더 가능성이 높은 답을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['양치식물', '공룡 발자국']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 공룡 발자국"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 다이어그램은 방해받지 않은 퇴적암층의 화석을 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_136",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_136.jpeg</img>\n각 샘플의 입자들의 평균 운동 에너지를 비교하세요. 어느 샘플이 더 높은 온도를 가지고 있나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['둘 다 아님; 샘플의 온도는 동일함', '샘플 B', '샘플 A']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 샘플 A"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 다이어그램은 동일한 닫힌, 단단한 용기에 있는 두 순수한 가스 샘플을 보여줍니다. 각 색깔의 공은 하나의 가스 입자를 나타냅니다. 두 샘플은 동일한 수의 입자를 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_137",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_137.jpeg</img>\n강조된 나라는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['자메이카', '아이티', '바하마', '그레나다']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 자메이카"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_138",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_138.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 맞나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['쌍 1에서 자기력의 크기가 더 큽니다.', '두 쌍에서 자기력의 크기가 같습니다.', '쌍 2에서 자기력의 크기가 더 큽니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쌍 2에서 자기력의 크기가 더 큽니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 같은 재료로 만들어졌지만, 크기와 모양이 다를 수 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_139",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내 단어가 있는 사전 페이지에서 찾을 수 있는 단어는 무엇인가요? patient - private"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['pit', 'public']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: pit"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_140",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_140.jpeg</img>\n셰넌도어 국립공원의 생태계를 더 잘 설명하는 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['따뜻하고 습한 여름이 있으며, 나무의 종류가 적습니다.', '춥고 습한 겨울이 있으며, 영양분이 부족한 토양을 가지고 있습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 따뜻하고 습한 여름이 있으며, 나무의 종류가 적습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 그림: 셰넌도어 국립공원. 셰넌도어 국립공원은 버지니아 북부에 위치한 온대 낙엽수림 생태계입니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_141",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "책 제목을 올바르게 표시한 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['\"Bugs in My Hair\"', '***Bugs in My Hair***']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: ***Bugs in My Hair***"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_142",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "코끼리의 무게는 얼마인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['4,295그램', '4,295킬로그램']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 4,295킬로그램"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_143",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "무엇이 더 부드러운가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['콘크리트 인도', '실크 넥타이']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 실크 넥타이"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_144",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_144.jpeg</img>\n다음 중 에밀리아의 실험이 보여줄 수 있는 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['더 많은 인슐린을 생산하는 것이 박테리아의 성장을 더 빠르게 도울 수 있는지 여부', '다른 종류의 박테리아가 인슐린을 생산하기 위해 다른 영양소가 필요한지 여부', '그녀가 박테리아가 20% 더 많은 인슐린을 생산하도록 충분한 영양소를 추가했는지 여부']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 그녀가 박테리아가 20% 더 많은 인슐린을 생산하도록 충분한 영양소를 추가했는지 여부"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 사람들은 문제에 대한 해결책을 개발하기 위해 공학 설계 과정을 사용할 수 있습니다. 이 과정의 한 단계는 잠재적인 해결책이 설계 요구 사항을 충족하는지 테스트하는 것입니다. 아래의 글은 문제에 대한 해결책을 테스트하기 위해 공학 설계 과정이 어떻게 사용되었는지를 설명합니다. 글을 읽고 아래 질문에 답하세요.\n\n당뇨병 환자들은 때때로 인슐린으로 만든 약을 복용합니다. 인슐린은 특별한 종류의 박테리아에 의해 만들어질 수 있습니다. 에밀리아는 박테리아가 생산하는 인슐린의 양을 20% 증가시키고자 하는 생명공학자였습니다. 그녀는 박테리아에게 더 많은 영양소를 제공하는 것이 그들이 생산하는 인슐린의 양에 영향을 미칠 수 있다는 것을 읽었습니다. 그래서 에밀리아는 일부 박테리아에게 추가 영양소를 제공했습니다. 그런 다음, 그녀는 추가 영양소를 받지 않은 박테리아와 비교하여 그 박테리아가 얼마나 많은 인슐린을 생산했는지 측정했습니다.\n그림: 실험실에서 박테리아 연구."
+            }
+        ]
+    },
+    {
+        "id": "identity_145",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_145.jpeg</img>\n과학자들이 무엇을 발견했나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['날 수 있는 바다거북', '빛나는 껍질을 가진 바다거북']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 빛나는 껍질을 가진 바다거북"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 새로운 발견에 대한 글을 읽어보세요. 몇몇 과학자들이 상어를 찾고 있을 때 놀라운 것을 보았습니다. 그들은 빛나는 바다거북을 발견했습니다! 거북의 껍질은 밝은 빨간색과 녹색이었습니다. 이것은 새로운 발견이었습니다. 과학자들은 이전에 빛나는 껍질을 가진 바다거북을 본 적이 없었습니다. 과학자들은 왜 이 거북들이 빛나는 껍질을 가지고 있는지 알고 싶어합니다. 안타깝게도, 세계에 남아 있는 이러한 거북들은 많지 않습니다. 그래서 그들에 대해 배우기가 어렵습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_146",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장은 어떤 시제를 사용하고 있나요? 과학자들이 랭커스터의 강수량을 측정할 것입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['과거 시제', '미래 시제', '현재 시제']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 미래 시제"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_147",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_147.jpeg</img>\n강조된 대륙은 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['유럽', '아시아', '북아메리카', '남극대륙']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 북아메리카"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_148",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_148.jpeg</img>\n강조된 바다는 어느 바다인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['대서양', '인도양', '북극해', '남극해']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 북극해"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_149",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_149.jpeg</img>\n반지는 고체인가요, 액체인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['고체', '액체']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 고체"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_150",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_150.jpeg</img>\n이 드라이버는 어떤 재료로 만들어졌나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['골판지', '플라스틱']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 플라스틱"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_151",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "텍스트의 증거를 사용하여 광합성 생물을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['이끼 개구리는 곤충을 먹어 생존에 필요한 에너지를 얻습니다. 개구리는 혀로 곤충을 잡습니다.', '이끼류는 설탕으로부터 생존에 필요한 에너지를 얻습니다. 이끼류는 이 설탕을 이산화탄소와 물로부터 만듭니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 이끼류는 설탕으로부터 생존에 필요한 에너지를 얻습니다. 이끼류는 이 설탕을 이산화탄소와 물로부터 만듭니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_152",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_152.jpeg</img>\n보통 콜라드 식물의 어느 부분을 먹나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['잎', '꽃', '뿌리']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 잎"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 사람들은 콜라드 식물을 음식으로 사용합니다. 광합성은 식물에 음식을 만듭니다. 우리는 보통 광합성을 가장 많이 하는 식물의 부분을 먹습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_153",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_153.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 맞나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['쌍 1에서 자기력의 크기가 더 큽니다.', '쌍 2에서 자기력의 크기가 더 큽니다.', '두 쌍에서 자기력의 크기가 동일합니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쌍 2에서 자기력의 크기가 더 큽니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 같은 재료로 만들어졌지만, 일부는 다른 모양을 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_154",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_154.jpeg</img>\n강조된 나라는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['솔로몬 제도', '뉴질랜드', '미크로네시아 연방', '팔라우']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 팔라우"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_155",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_155.jpeg</img>\n켄터키주의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['프랭크퍼트', '내슈빌', '루이빌', '렉싱턴']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 프랭크퍼트"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_156",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_156.jpeg</img>\n이 물체와 일치하는 속성은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['다채로운', '끈적거리는']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 다채로운"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 답을 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_157",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_157.jpeg</img>\n강조된 나라는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['자메이카', '바하마', '쿠바', '아이티']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쿠바"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_158",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_158.jpeg</img>\n이 교배로 생산된 채널 메기 중 흰색 몸체를 가질 확률은 얼마인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['4/4', '0/4', '2/4', '3/4', '1/4']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 1/4"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 채널 메기 그룹에서 일부 개체는 갈색 몸체를 가지고 있고 다른 개체는 흰색 몸체를 가지고 있습니다. 이 그룹에서 몸체 색상 특성에 대한 유전자는 두 개의 대립 유전자를 가지고 있습니다. 갈색 몸체(B)에 대한 대립 유전자는 흰색 몸체(b)에 대한 대립 유전자보다 우성입니다. 이 푸넷 사각형은 두 채널 메기 간의 교배를 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_159",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "펜의 길이는 얼마나 되나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['20킬로미터', '20센티미터']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 20센티미터"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 적절한 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_160",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_160.jpeg</img>\n펜실베이니아의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['해리스버그', '트렌턴', '피츠버그', '필라델피아']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 해리스버그"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_161",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 문장은 어떤 종류의 문장인가요? 나는 학교 신문에 글을 씁니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['의문문', '평서문']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 평서문"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_162",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_162.jpeg</img>\n이 물체와 일치하는 속성은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['반짝이는', '노란색']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 반짝이는"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 답을 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_163",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_163.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 맞나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['쌍 2에서 자기력의 크기가 더 작다.', '쌍 1에서 자기력의 크기가 더 작다.', '두 쌍에서 자기력의 크기가 같다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쌍 1에서 자기력의 크기가 더 작다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 같은 재료로 만들어졌지만, 일부는 크기가 다릅니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_164",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_164.jpeg</img>\n각 샘플의 입자들의 평균 운동 에너지를 비교하세요. 어느 샘플이 더 높은 온도를 가지고 있나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['둘 다 아님; 샘플의 온도는 동일함', '샘플 B', '샘플 A']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 샘플 A"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 다이어그램은 동일한 닫힌, 단단한 용기에 있는 두 순수한 가스 샘플을 보여줍니다. 각 색깔의 공은 하나의 가스 입자를 나타냅니다. 두 샘플은 동일한 수의 입자를 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_165",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_165.jpeg</img>\n이 먹이 사슬에서 대형 해조류가 생산자인 이유는 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['다른 생물을 먹습니다.', '스스로 음식을 만듭니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 스스로 음식을 만듭니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 다이어그램은 영국의 담수 생태계인 프롬 강의 먹이 사슬을 보여줍니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_166",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_166.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 사실인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['두 쌍의 자기력의 크기는 동일하다.', '쌍 1의 자기력의 크기가 더 작다.', '쌍 2의 자기력의 크기가 더 작다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 쌍 1의 자기력의 크기가 더 작다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 동일한 재료로 만들어졌습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_167",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_167.jpeg</img>\n매사추세츠의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['케임브리지', '보스턴', '트렌턴', '뉴올리언스']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 보스턴"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_168",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_168.jpeg</img>\n각 쌍의 자석 사이의 자기력을 생각해보세요. 다음 중 어떤 진술이 사실인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['쌍 1에서 자기력의 크기가 더 크다.', '두 쌍에서 자기력의 크기가 같다.', '쌍 2에서 자기력의 크기가 더 크다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 두 쌍에서 자기력의 크기가 같다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래 이미지는 두 쌍의 자석을 보여줍니다. 다른 쌍의 자석들은 서로 영향을 미치지 않습니다. 보여진 모든 자석은 같은 재료로 만들어졌습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_169",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "종이컵의 용량은 얼마인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['185리터', '185밀리리터']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 185밀리리터"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 적절한 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_170",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "어떤 정보가 해리가 이 특성을 물려받았다는 결론을 뒷받침하나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['해리의 생물학적 어머니는 긴 머리를 가지고 있습니다. 해리도 긴 머리를 가지고 있습니다.', '해리의 생물학적 부모님은 곱슬머리를 가지고 있습니다.', '해리는 곱슬머리가 얼굴에 닿지 않도록 머리띠를 사용합니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 해리의 생물학적 부모님은 곱슬머리를 가지고 있습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 특성에 대한 설명을 읽어보세요. 해리는 곱슬머리를 가지고 있습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_171",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_171.jpeg</img>\n빅토리아 왕관 비둘기와 같은 속에 속하는 생물을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['구라 쉐프마케리', '에쿠오레아 빅토리아', '팔코 스파르베리우스']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 구라 쉐프마케리"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 생물은 빅토리아 왕관 비둘기입니다. 그 학명은 Goura victoria입니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_172",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "두 개의 주방 세제 방울 중 온도가 더 낮은 것은 어느 것인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['열 에너지가 더 많은 주방 세제 방울', '열 에너지가 더 적은 주방 세제 방울']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 열 에너지가 더 적은 주방 세제 방울"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 두 개의 주방 세제 방울은 열 에너지를 제외하고는 동일합니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_173",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_173.jpeg</img>\n이 벨트는 어떤 재료로 만들어졌나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['세라믹', '가죽']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 가죽"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_174",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내 단어가 있는 사전 페이지에서 찾을 수 있는 단어는 무엇인가요? scribble - spade"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['sleepy', 'sweat']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: sleepy"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_175",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 중 이어진 문장은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['그 행사는 흥미로웠다. 음악, 쇼, 음식이 있었다.', '티나는 이번 주말에 자전거를 탈 것이다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 그 행사는 흥미로웠다. 음악, 쇼, 음식이 있었다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_176",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "이 글에서 사용된 수사법은 무엇인가요? 달은 외로운 사람들이 대화할 수 있는 친구입니다. —칼 샌드버그, \"Moonlight and Maggots\""
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['의인화', '직유법']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 의인화"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_177",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_177.jpeg</img>\n북미 비버와 같은 종에 속하는 생물을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['카스토르 카나덴시스', '오비스 오리엔탈리스', '알루아타 카라야']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 카스토르 카나덴시스"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 이 생물은 북미 비버입니다. 그 학명은 카스토르 카나덴시스입니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_178",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_178.jpeg</img>\n커런덤은 광물인가요, 암석인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['광물', '암석']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 광물"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 커런덤은 다음과 같은 특성을 가지고 있습니다: 고정된 결정 구조, 고체, 순수 물질, 자연에서 발견됨, 매우 단단함, 생물에 의해 만들어지지 않음."
+            }
+        ]
+    },
+    {
+        "id": "identity_179",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_179.jpeg</img>\n아이오와의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['디모인', '시더래피즈', '볼티모어', '피에르']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 디모인"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_180",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_180.jpeg</img>\n이 글은 날씨를 설명하고 있나요, 아니면 기후를 설명하고 있나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['날씨', '기후']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 기후"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 그림: 마르세유. 마르세유는 프랑스 남부 해안에 있는 도시입니다. 북쪽에서 불어오는 차가운 바람인 미스트랄 바람은 매년 늦겨울과 초봄에 마르세유에서 흔히 발생합니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_181",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "두 모터보트의 움직임을 비교하세요. 어느 모터보트가 더 빠른 속도로 움직였나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['10시간 동안 135마일을 이동한 모터보트', '10시간 동안 240마일을 이동한 모터보트']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 10시간 동안 240마일을 이동한 모터보트"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_182",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 안내 단어가 있는 사전 페이지에서 찾을 수 있는 단어는 무엇인가요? papoose - pliers"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['페달', '퍼플']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 페달"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_183",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_183.jpeg</img>\n버지니아의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['배턴루지', '리치먼드', '알링턴', '노퍽']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 리치먼드"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_184",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_184.jpeg</img>\n이 두 물체가 공통으로 가지고 있는 속성은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['끈적거림', '노란색']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 노란색"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 답을 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_185",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 문장 중 더 격식 있는 문장은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['알렉산더 박사와 그녀의 팀은 현대 의료 서비스가 없는 외딴 마을로 말을 타고 여행했습니다.', '알렉산더 박사와 그녀의 팀은 말을 타고 현대 의료 서비스가 없는 곳으로 갔습니다.']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 알렉산더 박사와 그녀의 팀은 현대 의료 서비스가 없는 외딴 마을로 말을 타고 여행했습니다."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_186",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 문장에서 언급된 비유의 출처는 무엇인가요?  \n릴리안의 파우스트적 거래의 세부 사항을 알게 되었을 때, 나는 믿을 수 없었다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['문학', '로마 신화']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 문학"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_187",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "오븐에서 라자냐를 굽는 데 얼마나 걸리나요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['42시간', '42분']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 42분"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 추정치를 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_188",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_188.jpeg</img>\n아이다호의 주도는 어디인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['보이시', '토피카', '주노', '버팔로']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 보이시"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_189",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "다음 특성은 유전된 것인가요, 아니면 후천적으로 얻은 것인가요? 대부분의 사람들은 다양한 냄새를 감지할 수 있습니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['유전된 것', '후천적으로 얻은 것']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 유전된 것"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_190",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "책 제목을 올바르게 표시한 것은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['***파란 돌고래 섬***', '\"파란 돌고래 섬\"']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: ***파란 돌고래 섬***"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_191",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "문장을 완성하세요. 성냥에 불을 붙이는 것은 ()입니다."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['물리적 변화', '화학적 변화']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 화학적 변화"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_192",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_192.jpeg</img>\n이 두 개의 물체가 공통으로 가지고 있는 속성은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['깨지기 쉬운', '단단한']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 단단한"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 답을 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_193",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_193.jpeg</img>\n강조된 바다는 어느 바다인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['대서양', '태평양', '남극해', '인도양']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 태평양"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_194",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_194.jpeg</img>\n다음 중 이 실험에서 독립 변수는 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['새 모이통을 방문한 딱따구리의 수', '새 모이통에 사용된 먹이의 종류']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 새 모이통에 사용된 먹이의 종류"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 아래의 글은 실험을 설명합니다. 글을 읽고 설명된 변수를 생각해보세요.\n\n릭은 종종 그의 뒷마당 나무에 앉아 있는 딱따구리를 보았지만, 새 모이통에서는 본 적이 없었습니다. 릭은 보통 그의 모이통에 해바라기 씨를 채웠습니다. 그는 다른 종류의 먹이를 모이통에 추가하면 딱따구리를 유인할 수 있을지 궁금했습니다.\n이 아이디어를 시험하기 위해, 릭은 동일한 새 모이통 8개를 모았습니다. 그는 4개를 해바라기 씨로 채웠습니다. 나머지 4개의 모이통은 으깬 땅콩으로 채웠습니다. 릭은 그런 다음 새 모이통을 그의 뒷마당에 배치했습니다. 다음 5일 동안, 그는 매일 아침 각 새 모이통을 방문한 딱따구리의 수를 세었습니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_195",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_195.jpeg</img>\n이 객체와 일치하는 속성은 무엇인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['파란색', '거친']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 파란색"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 더 나은 답을 선택하세요."
+            }
+        ]
+    },
+    {
+        "id": "identity_196",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "척추동물을 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['무당벌레', '지렁이', '모기', '무지개 송어']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 무지개 송어"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_197",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_197.jpeg</img>\n아래에서 새를 선택하세요."
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['타조', '일본 청개구리']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 타조"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 새는 깃털, 두 개의 날개, 부리를 가지고 있습니다. 딱따구리는 새의 한 예입니다."
+            }
+        ]
+    },
+    {
+        "id": "identity_198",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "어떤 발표가 더 격식을 차린 표현인가요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['댄빌 법률 사무소는 여러분께 기쁜 마음으로 알려드립니다 . . .', '댄빌 법률 사무소는 발표하게 되어 기쁩니다 . . .']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 댄빌 법률 사무소는 발표하게 되어 기쁩니다 . . ."
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: "
+            }
+        ]
+    },
+    {
+        "id": "identity_199",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<img>./image/image_199.jpeg</img>\n이 자석들은 서로 끌어당길까요, 밀어낼까요?"
+            },
+            {
+                "from": "user",
+                "value": "Choices: ['밀어낸다', '끌어당긴다']"
+            },
+            {
+                "from": "assistant",
+                "value": "Answer: 끌어당긴다"
+            },
+            {
+                "from": "assistant",
+                "value": "Hint: 두 개의 자석이 그림과 같이 놓여 있습니다."
+            }
+        ]
+    }
+]
