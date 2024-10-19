@@ -31,8 +31,7 @@ bash ./finetune/finetune_lora_single_gpu.sh
 데이터셋 처리와 모델 파인튜닝을 연속해서 실행하려면 다음 명령어를 사용합니다:
 
 ```
-python preprocess.py --output_path ./data --num_samples 200 
-bash ./finetune/finetune_lora_single_gpu.sh
+bash train.sh 
 ```
 
 이 명령어는 먼저 데이터셋을 처리한 후, 처리된 데이터를 사용하여 모델을 파인튜닝합니다.
