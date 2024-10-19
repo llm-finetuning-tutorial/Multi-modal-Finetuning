@@ -215,51 +215,88 @@ def preprocess(
     max_len: int,
     system_message: str = "You are a helpful assistant."
 ) -> Dict:
-    roles = {"user": "<|im_start|>user", "assistant": "<|im_start|>assistant"}
+    roles = {"user": "<|im_start|>user", "assistant": "<|im_start|>assistant"}  # 역할별 토큰 구분
 
-    im_start = tokenizer.im_start_id
-    im_end = tokenizer.im_end_id
-    nl_tokens = tokenizer('\n').input_ids
+    im_start = tokenizer.im_start_id  # 대화 시작 토큰
+    im_end = tokenizer.im_end_id  # 대화 끝 토큰
+    nl_tokens = tokenizer('\n').input_ids  # 줄바꿈 토큰
+
+    # 시스템, 유저, 어시스턴트 역할에 대한 토큰
     _system = tokenizer('system').input_ids + nl_tokens
     _user = tokenizer('user').input_ids + nl_tokens
-    _assistant = tokenizer('assistant').input_ids + nl_tokens
+    _assistant = tokenizer('assistant').input.ids + nl_tokens
 
-    # Apply prompt templates
-    input_ids, targets = [], []
+    input_ids, targets = [], []  # 입력과 타겟 저장 리스트
+
     for i, source in enumerate(sources):
+        # 첫 메시지가 user가 아니면 건너뜀
         if roles[source[0]["from"]] != roles["user"]:
             source = source[1:]
 
         input_id, target = [], []
-        system = [im_start] + _system + tokenizer(system_message).input_ids + [im_end] + nl_tokens
+
+        # 시스템 메시지 추가
+        system = [im_start] + _system + tokenizer(system_message).input.ids + [im_end] + nl_tokens
         input_id += system
         target += [im_start] + [IGNORE_TOKEN_ID] * (len(system)-3) + [im_end] + nl_tokens
-        assert len(input_id) == len(target)
+
+        # 대화 데이터 처리
         for j, sentence in enumerate(source):
-            role = roles[sentence["from"]]
-            _input_id = tokenizer(role).input_ids + nl_tokens + \
-                tokenizer(sentence["value"]).input_ids + [im_end] + nl_tokens
+            role = roles[sentence["from"]]  # 역할 확인 (user 또는 assistant)
+            _input_id = tokenizer(role).input.ids + nl_tokens + tokenizer(sentence["value"]).input.ids + [im_end] + nl_tokens
             input_id += _input_id
+
+            # 타겟 설정: user는 IGNORE_TOKEN_ID로 처리, assistant는 예측 대상
             if role == '<|im_start|>user':
                 _target = [im_start] + [IGNORE_TOKEN_ID] * (len(_input_id)-3) + [im_end] + nl_tokens
             elif role == '<|im_start|>assistant':
-                _target = [im_start] + [IGNORE_TOKEN_ID] * len(tokenizer(role).input_ids) + \
-                    _input_id[len(tokenizer(role).input_ids)+1:-2] + [im_end] + nl_tokens
+                _target = [im_start] + [IGNORE_TOKEN_ID] * len(tokenizer(role).input.ids) + _input_id[len(tokenizer(role).input.ids)+1:-2] + [im_end] + nl_tokens
             else:
                 raise NotImplementedError
+
             target += _target
-        assert len(input_id) == len(target)
+
+        # 길이 맞추기 (패딩 추가)
         input_id += [tokenizer.pad_token_id] * (max_len - len(input_id))
         target += [IGNORE_TOKEN_ID] * (max_len - len(target))
-        input_ids.append(input_id[:max_len])
+
+        input_ids.append(input_id[:max_len])  # 최대 길이만큼 자르기
         targets.append(target[:max_len])
-    input_ids = torch.tensor(input_ids, dtype=torch.int)
-    targets = torch.tensor(targets, dtype=torch.int)
+
+    input_ids = torch.tensor(input_ids, dtype=torch.int)  # 입력 시퀀스
+    targets = torch.tensor(targets, dtype=torch.int)  # 타겟 시퀀스
+
+    # 예시) 주어진 source:
+    # sources = [
+    #     [
+    #         {"from": "user", "value": "Hello, how are you?"},
+    #         {"from": "assistant", "value": "I'm doing well, thank you!"}
+    #     ]
+    # ]
+
+    # 디코딩 예상 결과:
+    # <|im_start|>system
+    # You are a helpful assistant.<|im_end|>
+    # <|im_start|>user
+    # Hello, how are you?<|im_end|>
+    # <|im_start|>assistant
+    # I'm doing well, thank you!<|im_end|>
+
+    # 예상 input_ids:
+    # [im_start, 'system' 토큰들, 'You are a helpful assistant.' 토큰들, im_end, nl_token,
+    # im_start, 'user' 토큰들, 'Hello, how are you?' 토큰들, im_end, nl_token,
+    # im_start, 'assistant' 토큰들, 'I'm doing well, thank you!' 토큰들, im_end, 패딩...]
+
+    # 예상 targets:
+    # targets에서는 시스템과 user의 대화는 전부 IGNORE하는게 목적. assistant의 발화만 예측.
+    # [im_start, IGNORE_TOKEN_ID들, im_end, nl_token,
+    # im_start, IGNORE_TOKEN_ID들, im_end, nl_token,
+    # im_start, IGNORE_TOKEN_ID들, 'I'm doing well, thank you!' 토큰들, im_end, 패딩...]
 
     return dict(
         input_ids=input_ids,
         labels=targets,
-        attention_mask=input_ids.ne(tokenizer.pad_token_id),
+        attention_mask=input_ids.ne(tokenizer.pad_token_id),  # 패딩된 부분을 무시하도록 설정
     )
 
 
