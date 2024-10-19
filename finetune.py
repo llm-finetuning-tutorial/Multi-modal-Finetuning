@@ -20,33 +20,46 @@ from accelerate.utils import DistributedType
 IGNORE_TOKEN_ID = LabelSmoother.ignore_index
 
 
+# 모델 관련 인자를 저장하기 위한 데이터 클래스
 @dataclass
 class ModelArguments:
+    # 사용할 모델의 이름 또는 경로
+    # 기본값으로 "Qwen/Qwen-7B" 설정
     model_name_or_path: Optional[str] = field(default="Qwen/Qwen-7B")
 
 
+# 데이터 관련 인자를 저장하기 위한 데이터 클래스
 @dataclass
 class DataArguments:
+    # 훈련 데이터의 경로
     data_path: str = field(
         default=None, metadata={"help": "Path to the training data."}
     )
+    # 평가 데이터의 경로
     eval_data_path: str = field(
         default=None, metadata={"help": "Path to the evaluation data."}
     )
+    # 지연 전처리 여부를 결정하는 플래그
     lazy_preprocess: bool = False
 
 
+# 훈련 관련 인자를 저장하기 위한 데이터 클래스
 @dataclass
 class TrainingArguments(transformers.TrainingArguments):
+    # 캐시 디렉토리 경로
     cache_dir: Optional[str] = field(default=None)
+    # 최적화 알고리즘 선택 (기본값: adamw_torch)
     optim: str = field(default="adamw_torch")
+    # 최대 시퀀스 길이 설정: 해당 길이를 초과하는 시퀀스는 오른쪽 패딩 또는 잘림 처리됨
     model_max_length: int = field(
         default=8192,
         metadata={
             "help": "Maximum sequence length. Sequences will be right padded (and possibly truncated)."
         },
     )
+    # LoRA (Low-Rank Adaptation) 사용 여부
     use_lora: bool = False
+    # Vision Transformer (ViT) 부분을 고정할지 여부
     fix_vit: bool = True
 
 
@@ -87,19 +100,22 @@ class LoraArguments:
     # 기본값 "none"은 편향을 그대로 두어 모델의 안정성을 유지합니다.
     lora_bias: str = "none"
 
-    # Quantized LoRA 사용 여부
-    # True로 설정 시, 양자화된 LoRA를 사용합니다.
-    # 양자화는 모델의 크기를 줄이고 추론 속도를 높이지만, 약간의 정확도 손실이 있을 수 있습니다.
-    # 기본값 False는 일반적인 (비양자화) LoRA를 사용함을 의미합니다.
+    # QLoRA(Quantized LoRA) 사용 여부
+    # QLoRA는 모델의 크기를 줄이고 추론 속도를 높이지만 정확도 손실이 있을 수 있습니다.
     q_lora: bool = False
 
 
+# DeepSpeed ZeRO-3 최적화와 관련된 파라미터 처리 함수
 def maybe_zero_3(param):
+    # 파라미터가 ZeRO-3에 의해 분할되었는지 확인
     if hasattr(param, "ds_id"):
+        # 파라미터가 현재 사용 불가능한 상태인지 확인
         assert param.ds_status == ZeroParamStatus.NOT_AVAILABLE
+        # 파라미터를 수집하여 CPU로 이동
         with zero.GatheredParameters([param]):
             param = param.data.detach().cpu().clone()
     else:
+        # ZeRO-3가 적용되지 않은 경우 단순히 CPU로 이동
         param = param.detach().cpu().clone()
     return param
 
@@ -303,18 +319,22 @@ class LazySupervisedDataset(Dataset):
         return ret
 
 
+# 지도 학습을 위한 데이터 모듈 생성 함수
 def make_supervised_data_module(
     tokenizer: transformers.PreTrainedTokenizer, data_args, max_len,
 ) -> Dict:
-    """Make dataset and collator for supervised fine-tuning."""
+    """지도 학습을 위한 데이터셋과 콜레이터를 생성합니다."""
+    # 지연 처리 여부에 따라 데이터셋 클래스 선택
     dataset_cls = (
         LazySupervisedDataset if data_args.lazy_preprocess else SupervisedDataset
     )
     rank0_print("Loading data...")
 
+    # 훈련 데이터 로드 및 데이터셋 생성
     train_json = json.load(open(data_args.data_path, "r"))
     train_dataset = dataset_cls(train_json, tokenizer=tokenizer, max_len=max_len)
 
+    # 평가 데이터가 제공된 경우 평가 데이터셋도 생성
     if data_args.eval_data_path:
         eval_json = json.load(open(data_args.eval_data_path, "r"))
         eval_dataset = dataset_cls(eval_json, tokenizer=tokenizer, max_len=max_len)
