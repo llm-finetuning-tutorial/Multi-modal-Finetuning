@@ -2,13 +2,13 @@
 export CUDA_DEVICE_MAX_CONNECTIONS=1
 DIR=`pwd`
 
-GPUS_PER_NODE=8
+GPUS_PER_NODE=2
 NNODES=1
 NODE_RANK=0
 MASTER_ADDR=localhost
 MASTER_PORT=6001
 
-MODEL="Qwen/Qwen-VL-Chat" #"Qwen/Qwen-VL-Chat"/"Qwen/Qwen-VL"  Set the path if you do not want to load from huggingface directly
+MODEL="Qwen/Qwen2-VL-7B-Instruct" #"Qwen/Qwen-VL-Chat"/"Qwen/Qwen-VL"  Set the path if you do not want to load from huggingface directly
 # ATTENTION: specify the path to your training data, which should be a json file consisting of a list of conversations.
 # See the section for finetuning in README for more information.
 DATA="path_to_data"
@@ -46,4 +46,4 @@ torchrun $DISTRIBUTED_ARGS finetune.py \
     --lazy_preprocess True \
     --use_lora \
     --gradient_checkpointing \
-    --deepspeed finetune/ds_config_zero2.json
+    --deepspeed finetune/ds_config_zero3.json

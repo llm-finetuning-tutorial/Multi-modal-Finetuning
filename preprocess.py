@@ -19,39 +19,23 @@ def convert_to_conversation(example, idx, image_map):
         conversation = [
             {
                 "from": "user",
-                "value": f"<img>{image_map[idx]}</img>\n{example['korean_question']}"
-            },
-            {
-                "from": "user",
-                "value": f"Choices: {example['korean_choices']}"
+                "value": f"<img>{image_map[idx]}</img>\n질문: {example['korean_question']}\n선택지: {example['korean_choices']}\n힌트: {example['korean_hint']}"
             },
             {
                 "from": "assistant",
-                "value": f"Answer: {example['answer_str']}"
+                "value": f"답변: 정답은 {example['answer']}번: {example['answer_str']}입니다."
             },
-            {
-                "from": "assistant",
-                "value": f"Hint: {example['korean_hint']}"
-            }
         ]
     else:
         conversation = [
             {
                 "from": "user",
-                "value": f"{example['korean_question']}"
-            },
-            {
-                "from": "user",
-                "value": f"Choices: {example['korean_choices']}"
+                "value": f"{example['korean_question']}\nChoices: {example['korean_choices']}\nHint: {example['korean_hint']}"
             },
             {
                 "from": "assistant",
-                "value": f"Answer: {example['answer_str']}"
+                "value": f"답변: 정답은 {example['answer']}번: {example['answer_str']}입니다."
             },
-            {
-                "from": "assistant",
-                "value": f"Hint: {example['korean_hint']}"
-            }
         ]
     
     return {"conversations": conversation}
@@ -93,7 +77,7 @@ def process_dataset(output_path, num_samples):
         with_indices=True
     )
 
-    # Format for Qwen-vl-chat
+    # Format for Qwen-vl-chat 
     formatted_conversations = []
     for idx, conversation in enumerate(converted_dataset["conversations"]):
         conversation_entry = {

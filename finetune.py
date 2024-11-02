@@ -12,7 +12,8 @@ from torch.utils.data import Dataset
 from deepspeed import zero
 from deepspeed.runtime.zero.partition_parameters import ZeroParamStatus
 import transformers
-from transformers import Trainer, GPTQConfig, deepspeed
+from transformers import Trainer, GPTQConfig
+import deepspeed
 from transformers.trainer_pt_utils import LabelSmoother
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from accelerate.utils import DistributedType
@@ -86,7 +87,7 @@ class LoraArguments:
     # "c_attn", "attn.c_proj"는 주로 attention 메커니즘 관련 레이어입니다.
     # "w1", "w2"는 주로 feed-forward 네트워크의 가중치 행렬을 나타냅니다.
     lora_target_modules: List[str] = field(
-        default_factory=lambda: ["c_attn", "attn.c_proj", "w1", "w2"]
+        default_factory=lambda: ["q_proj", "v_proj"]
     )
 
     # LoRA 가중치 파일 경로
@@ -217,14 +218,14 @@ def preprocess(
 ) -> Dict:
     roles = {"user": "<|im_start|>user", "assistant": "<|im_start|>assistant"}  # 역할별 토큰 구분
 
-    im_start = tokenizer.im_start_id  # 대화 시작 토큰
-    im_end = tokenizer.im_end_id  # 대화 끝 토큰
+    im_start = tokenizer.encode("<|im_start|>")[0]  # 대화 시작 토큰
+    im_end = tokenizer.encode("<|im_end|>")[0]  # 대화 끝 토큰
     nl_tokens = tokenizer('\n').input_ids  # 줄바꿈 토큰
 
     # 시스템, 유저, 어시스턴트 역할에 대한 토큰
     _system = tokenizer('system').input_ids + nl_tokens
     _user = tokenizer('user').input_ids + nl_tokens
-    _assistant = tokenizer('assistant').input.ids + nl_tokens
+    _assistant = tokenizer('assistant').input_ids + nl_tokens
 
     input_ids, targets = [], []  # 입력과 타겟 저장 리스트
 
@@ -236,21 +237,21 @@ def preprocess(
         input_id, target = [], []
 
         # 시스템 메시지 추가
-        system = [im_start] + _system + tokenizer(system_message).input.ids + [im_end] + nl_tokens
+        system = [im_start] + _system + tokenizer(system_message).input_ids + [im_end] + nl_tokens
         input_id += system
         target += [im_start] + [IGNORE_TOKEN_ID] * (len(system)-3) + [im_end] + nl_tokens
 
         # 대화 데이터 처리
         for j, sentence in enumerate(source):
             role = roles[sentence["from"]]  # 역할 확인 (user 또는 assistant)
-            _input_id = tokenizer(role).input.ids + nl_tokens + tokenizer(sentence["value"]).input.ids + [im_end] + nl_tokens
+            _input_id = tokenizer(role).input_ids + nl_tokens + tokenizer(sentence["value"]).input_ids + [im_end] + nl_tokens
             input_id += _input_id
 
             # 타겟 설정: user는 IGNORE_TOKEN_ID로 처리, assistant는 예측 대상
             if role == '<|im_start|>user':
                 _target = [im_start] + [IGNORE_TOKEN_ID] * (len(_input_id)-3) + [im_end] + nl_tokens
             elif role == '<|im_start|>assistant':
-                _target = [im_start] + [IGNORE_TOKEN_ID] * len(tokenizer(role).input.ids) + _input_id[len(tokenizer(role).input.ids)+1:-2] + [im_end] + nl_tokens
+                _target = [im_start] + [IGNORE_TOKEN_ID] * len(tokenizer(role).input_ids) + _input_id[len(tokenizer(role).input_ids)+1:-2] + [im_end] + nl_tokens
             else:
                 raise NotImplementedError
 
@@ -460,7 +461,8 @@ def train():
 
     # 모델을 로드합니다.
     # AutoModelForCausalLM을 사용하여 인과적 언어 모델(GPT 계열)을 자동으로 로드합니다.
-    model = transformers.AutoModelForCausalLM.from_pretrained(
+    # model = transformers.AutoModelForCausalLM.from_pretrained(
+    model = transformers.Qwen2VLForConditionalGeneration.from_pretrained(
         model_args.model_name_or_path,
         config=config,
         cache_dir=training_args.cache_dir,
@@ -495,7 +497,7 @@ def train():
         trust_remote_code=True,
     )
     # 패딩 토큰 ID를 EOD(End of Document) 토큰 ID로 설정합니다. 모델이 문서의 끝을 인식하도록 합니다.
-    tokenizer.pad_token_id = tokenizer.eod_id
+    # tokenizer.pad_token_id = tokenizer.eod_id
 
     # LoRA 설정 및 적용
     # LoRA는 대규모 언어 모델의 효율적인 미세조정을 가능하게 하는 기술입니다.
