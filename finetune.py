@@ -300,7 +300,15 @@ def preprocess(
         attention_mask=input_ids.ne(tokenizer.pad_token_id),  # 패딩된 부분을 무시하도록 설정
     )
 
+# SupervisedDataset
+# - 전처리 시점: 학습 전에 모든 데이터를 한 번에 전처리 (데이터셋 생성 시 전처리 완료)
+# - 장점: 학습 중 빠르게 데이터를 불러올 수 있음
+# - 단점: 메모리 사용량이 많아지고, 초기 전처리 시간이 길어질 수 있음
 
+# LazySupervisedDataset
+# - 전처리 시점: 학습 중 필요한 데이터에 접근할 때마다 전처리
+# - 장점: 메모리 효율적이고, 초기 로딩 속도가 빠름 <= 초기 로딩 속도가 빠른 것이 이점.
+# - 단점: 학습 중 데이터에 처음 접근할 때 전처리 시간이 그때 발생함.
 class SupervisedDataset(Dataset):
     """Dataset for supervised fine-tuning."""
 
